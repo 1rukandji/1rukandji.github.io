@@ -1,0 +1,90 @@
+* {
+    margin: 0px;
+    padding: 5px;
+}
+
+body {
+    width: 100vw;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.card {
+    box-sizing: border-box;
+    border: 1px solid gray;
+    display: flex;
+    justify-content: space-between; 
+    width: 50%;
+}
+
+.photo {
+    width: 90%;
+    transition: 1s;
+}
+.card-left {
+    width: 33%;
+}
+.card-center {
+    width: 50%;
+}
+.card-right {
+    width: 17%;
+}
+.title {
+    font-size: larger;
+    font-weight: 700;
+}
+.discription {
+    font-size: medium;
+}
+.questions {
+    font-size: medium;
+    font-weight: 700;
+}
+.favorites {
+    font-size: medium;
+    font-weight: 700;
+    opacity: 0%;
+    transition: 1s;
+}
+.options {
+    display: flex;
+    justify-content: center;
+}
+
+.avg-price {
+    color: orange;
+    font-size: larger;
+    font-weight: bold;
+}
+
+.buy {
+    border: none;
+    color: white;
+    background-color: orange;
+    width: 100%;
+    margin-bottom: 5px;
+    height: auto;
+}
+.buy-click {
+    border: none;
+    color: white;
+    background-color: green;
+    width: 100%;
+    height: auto;
+    opacity: 0%;
+    transition: 1s;
+}
+.card:hover .photo {
+    transition-duration: 1s;
+    width: 100%;
+}
+
+.card:hover .favorites {
+    transition-duration: 1s;   
+    opacity: 100%; 
+}
+
+.card:hover .buy-click {
+    transition-duration: 1s;
+    opacity: 100%;
+}
