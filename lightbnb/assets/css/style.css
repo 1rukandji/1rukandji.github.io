@@ -40,6 +40,9 @@
 .info-right2 {
   width: 50%;
 }
+.info-right3 {
+  width: 45vh;
+}
 
 .nav {
   text-align: center;
@@ -83,7 +86,9 @@
   margin-top: 20px;
 }
 
-
+.material-symbols-outlined {
+  align-items: center;
+}
 
 
 
