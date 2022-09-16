@@ -40,7 +40,24 @@ body {
   line-height: 25px;
 }
 
+.launch {
+  width: 160px; 
+  height: 40px; 
+  background-color: black; 
+  color: white; 
+  border-radius: 45px; 
+  border: 3px solid #57519e;
+  font-size: 16px;
+  line-height: 23px;
+  font-weight: 700; 
+  transition: 0.5s;
+  line-height: normal;
+}
 
+.launch:hover {
+  border: 3px solid white;
+  transition: 0.5s;
+}
 
 .line {
   width: 100%;
@@ -198,6 +215,7 @@ margin-top: -35px;
   border-radius: 28px;
   width: 107px;
   height: 107px;
+  margin-bottom: 15px;
 }
 
 .title {
