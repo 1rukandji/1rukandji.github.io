@@ -17,8 +17,84 @@ body {
 }
 
 header {
-  display: flex;
-  flex-direction: row;
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+}
+
+.dropbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+}
+
+.dropdown-content {
+display: none;
+min-width: 110px;
+font-size: 30px;
+
+}
+
+.dropdown-content a {
+  color: #283142;
+  padding: 6px 13px;
+  text-decoration: none;
+  display: block;
+  background: #283142;
+}
+
+.dropdown-content a:hover {background-color: #00b5cc;}
+.dropdown:hover .dropdown-content {display: block;}
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+.dropbtn {
+background-color: #4CAF50;
+color: white;
+padding: 12px;
+font-size: 16px;
+border: none;
+cursor: pointer;
+}
+
+.dropdown {
+position: relative;
+display: inline-block;
+left: 17px;
+}
+
+.dropdown-content {
+display: none;
+position: absolute;
+right: 30%;
+min-width: 127px;
+z-index: 999;
+font-size: 30px;
+}
+
+.dropdown-content a {
+color: #283142;
+padding: 6px 13px;
+text-decoration: none;
+display: block;
+background: #283142;
+}
+
+.dropdown-content a:hover {background-color: #191f2a;}
+.dropdown:hover .dropdown-content {display: block;}
+.dropdown:hover .dropbtn {background-color: #3e8e41;} 
+
+.lang {
+font-style: normal;
+font-weight: 600;
+font-size: 15px;
+line-height: 56px;
+color:white;
 }
 
 .grey {
@@ -61,7 +137,7 @@ header {
 
 .launch {
   width: 100px; 
-  height: 30px; 
+  height: 35px; 
   margin-top: 7px;
   background-color: black; 
   color: white; 
@@ -89,7 +165,7 @@ header {
 .main3 {
   display: grid;
   grid-template-columns: 50% 50%;
-  gap: 5%;
+  gap: 3%;
 }
 
 .main4 {
@@ -155,7 +231,7 @@ header {
 .block5 {
   height: 252px; 
   grid-area: B;
-  
+  padding-left: 10%;
 }
 
 .block6{
