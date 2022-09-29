@@ -8,10 +8,28 @@
 
   <link rel="stylesheet" href="./assets/css/style.css">
   <link rel="stylesheet" href="https://use.typekit.net/lne7ukp.css">
- 
-
 
 </head>
+<script>
+  function easySetup () { 
+    const el=document.getElementById("modal") ;
+    el.className = el.className === 'modal' ? 'inv' : 'modal';
+  };
+  
+  function modalswitch1 () { 
+    const el1=document.getElementById("modal1") ;
+    const el2=document.getElementById("modal2") ;
+    el2.style.display = "none";
+    el1.style.display = "block";
+  };
+  
+  function modalswitch2 () { 
+    const el1=document.getElementById("modal1") ;
+    const el2=document.getElementById("modal2") ;
+    el1.style.display = "none";
+    el2.style.display = "block";
+  };
+  </script>
 <body>
   <div class="container">
 
@@ -31,27 +49,24 @@
         <button class="launch">Launch App</button>
       </p>
     </header>
-    <div class="modal">
+    <div class="modal"  id="modal">
       <div class="modal-overlay">
         <div class="modal-window">
           <div class="modal-header">
             <span class="modal-title">WalletConnect</span>
-            <span class="modal-close">&times;</span>
+            <button class="modal-close" id="bclose">X</button>
           </div>
           <div class="modal-buttons">
-            <button class="mbutton">QR Code</button>
-            <button class="mbutton right_selected">Desktop</button>
+            <button class="mbutton" id="bswitch1">QR Code</button>
+            <button class="mbutton right_selected"  id="bswitch2">Desktop</button>
           </div>
-          <div style="display: none;"> 
+          <div style="display: none;" id="modal1"> 
             <div class="modal-body1">
               <p class="grey" style="color: white; text-align:center; font-size: 17px;">Scan QR code with a WalletConnect-compatible wallet</p>
-              <img src="./Screenshot_1-removebg-preview.png" style="width: 100%">
-            </div>
-            <div class="modal-footer1">
-              <p class="grey" style="color: white; text-align:center; font-size: 17px;">Copy to clipboard</p>
+              <img src="./Screenshot_1-removebg-preview.png" style="width: 100%;">
             </div>
           </div>
-          <div>
+          <div id="modal2">
             <p class="grey" style="color: white; text-align:center; font-size: 17px;">Choose your preferred wallet</p>
             <div class="modal-body2">
               <a class="button_connect" href="!">
@@ -280,4 +295,17 @@
 
   </div>
 </body>
+<script>
+  function redirectMobileHandler() {
+    document.getElementById("bclose").addEventListener("click", easySetup);
+    document.getElementById("bswitch1").addEventListener("click", modalswitch1);
+    document.getElementById("bswitch2").addEventListener("click", modalswitch2);
+
+}
+
+window.onload = redirectMobileHandler();
+window.onresize = () => redirectMobileHandler();
+
+</script>
+
 </html>

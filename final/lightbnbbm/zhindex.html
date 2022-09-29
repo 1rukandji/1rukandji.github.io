@@ -12,6 +12,26 @@
 
 
 </head>
+<script>
+  function easySetup () { 
+    const el=document.getElementById("modal") ;
+    el.className = el.className === 'modal' ? 'inv' : 'modal';
+  };
+  
+  function modalswitch1 () { 
+    const el1=document.getElementById("modal1") ;
+    const el2=document.getElementById("modal2") ;
+    el2.style.display = "none";
+    el1.style.display = "block";
+  };
+  
+  function modalswitch2 () { 
+    const el1=document.getElementById("modal1") ;
+    const el2=document.getElementById("modal2") ;
+    el1.style.display = "none";
+    el2.style.display = "block";
+  };
+  </script>
 <body>
   <div class="container">
 
@@ -31,18 +51,18 @@
         <button class="launch">启动应用程序</button>
       </p>
     </header>
-    <div class="modal">
+    <div class="modal" id="modal">
       <div class="modal-overlay">
         <div class="modal-window">
           <div class="modal-header">
             <span class="modal-title">钱包连接</span>
-            <span class="modal-close">&times;</span>
+            <button class="modal-close" id="bclose">X</button>
           </div>
           <div class="modal-buttons">
-            <button class="mbutton">二维码</button>
-            <button class="mbutton right_selected">桌面</button>
+            <button class="mbutton" id="bswitch1">二维码</button>
+            <button class="mbutton" id="bswitch2">桌面</button>
           </div>
-          <div style="display: none;"> 
+          <div style="display: none;" id="modal1"> 
             <div class="modal-body1">
               <p class="grey" style="color: white; text-align:center; font-size: 17px;">使用兼容 WalletConnect 的钱包扫描 QR 码</p>
               <img src="./Screenshot_1-removebg-preview.png" style="width: 100%">
@@ -51,7 +71,7 @@
               <p class="grey" style="color: white; text-align:center; font-size: 17px;">复制到剪贴板</p>
             </div>
           </div>
-          <div>
+          <div id="modal2">
             <p class="grey" style="color: white; text-align:center; font-size: 17px;">选择您喜欢的钱包</p>
             <div class="modal-body2">
               <a class="button_connect" href="!">
@@ -279,4 +299,16 @@
 
   </div>
 </body>
+<script>
+  function redirectMobileHandler() {
+    document.getElementById("bclose").addEventListener("click", easySetup);
+    document.getElementById("bswitch1").addEventListener("click", modalswitch1);
+    document.getElementById("bswitch2").addEventListener("click", modalswitch2);
+
+}
+
+window.onload = redirectMobileHandler();
+window.onresize = () => redirectMobileHandler();
+
+</script>
 </html>
