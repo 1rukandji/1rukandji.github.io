@@ -28,7 +28,114 @@
         <button class="launch">启动应用程序</button>
       </div>
     </main>
-
+    <div class="modal">
+      <div class="modal-overlay">
+        <div class="modal-window">
+          <div class="modal-header">
+            <span class="modal-title">钱包连接</span>
+            <span class="modal-close">&times;</span>
+          </div>
+          <div class="modal-buttons">
+            <button class="mbutton">二维码</button>
+            <button class="mbutton right_selected">桌面</button>
+          </div>
+          <div style="display: none;"> 
+            <div class="modal-body1">
+              <p class="grey" style="color: white; text-align:center; font-size: 17px;">使用兼容 WalletConnect 的钱包扫描 QR 码</p>
+              <img src="./Screenshot_1-removebg-preview.png" style="width: 100%">
+            </div>
+            <div class="modal-footer1">
+              <p class="grey" style="color: white; text-align:center; font-size: 17px;">复制到剪贴板</p>
+            </div>
+          </div>
+          <div>
+            <p class="grey" style="color: white; text-align:center; font-size: 17px;">选择您喜欢的钱包</p>
+            <div class="modal-body2">
+              <a class="button_connect" href="!">
+                <div class="button_connect_icon" style="background: url(https://registry.walletconnect.org/logo/sm/f2436c67184f158d1beda5df53298ee84abfc367581e4505134b5bcf5f46697d.jpeg) 0% 0% / 100% rgb(17, 153, 250);"></div>
+                <div class="button_connect_text">Crypto.com</div>
+              </a>
+              <a class="button_connect" href="https://wallet.zerion.io/wc?uri=wc%3A94970d94-cf4e-4bd9-8bb1-f1fb4e1e1a04%401%3Fbridge%3Dhttps%253A%252F%252Fv.bridge.walletconnect.org%26key%3D8318dcbfde3e95e041d1d3fd07713ddc549a06aadb53dddd5aaf3dce9a34f298">
+                <div class="button_connect_icon" style="background: url(https://registry.walletconnect.org/logo/sm/ecc4036f814562b41a5268adc86270fba1365471402006302e70169465b7ac18.jpeg)"></div>
+                <div class="button_connect_text">Zerion</div>
+              </a>
+              <a class="button_connect" href="ledgerlive://wc?uri=wc%3A94970d94-cf4e-4bd9-8bb1-f1fb4e1e1a04%401%3Fbridge%3Dhttps%253A%252F%252Fv.bridge.walletconnect.org%26key%3D8318dcbfde3e95e041d1d3fd07713ddc549a06aadb53dddd5aaf3dce9a34f298/">
+                <div class="button_connect_icon" style="background: url(&quot;https://registry.walletconnect.org/logo/sm/19177a98252e07ddfc9af2083ba8e07ef627cb6103467ffebb3f8f4205fd7927.jpeg&quot;) 0% 0% / 100% rgb(0, 0, 0);"></div>
+                <div class="button_connect_text">Ledger</div>
+              </a>
+              <a class="button_connect" href="!">
+                <div class="button_connect_icon" style="background: url(https://registry.walletconnect.org/logo/sm/c889f5add667a8c69d147d613c7f18a4bd97c2e47c946cabfdd13ec1d596e4a0.jpeg) 0% 0% / 100% rgb(255, 255, 255);"></div>
+                <div class="button_connect_text" style="margin-left: 3px">Tokenery</div>
+              </a>
+              <a class="button_connect" href="https://infinitywallet.io//wc?uri=wc%3A94970d94-cf4e-4bd9-8bb1-f1fb4e1e1a04%401%3Fbridge%3Dhttps%253A%252F%252Fv.bridge.walletconnect.org%26key%3D8318dcbfde3e95e041d1d3fd07713ddc549a06aadb53dddd5aaf3dce9a34f298">
+                <div class="button_connect_icon" style="background: url(https://registry.walletconnect.org/logo/sm/802a2041afdaf4c7e41a2903e98df333c8835897532699ad370f829390c6900f.jpeg) 0% 0% / 100% rgb(25, 127, 225);"></div>
+                <div class="button_connect_text">Infinity Wallet</div>
+              </a>
+              <a class="button_connect" href="!">
+                <div class="button_connect_icon" style="background: url(https://registry.walletconnect.org/logo/sm/addb6cfece8fe6d2e7039baf5b2ba3249da48957b08bcc877a2e32eaffa6e7aa.jpeg) 0% 0% / 100% rgb(97, 134, 255);"></div>
+                <div class="button_connect_text">Wallet 3</div>
+              </a>
+              <a class="button_connect" href="!">
+                <div class="button_connect_icon" style="background: url(&quot;https://registry.walletconnect.org/logo/sm/6464873279d46030c0b6b005b33da6be5ed57a752be3ef1f857dc10eaf8028aa.jpeg&quot;) 0% 0% / 100%; background-color: white;"></div>
+                <div class="button_connect_text">SecuX</div>
+              </a>
+              <a class="button_connect" href="!">
+                <div class="button_connect_icon" style="background: url(https://registry.walletconnect.org/logo/sm/2c81da3add65899baeac53758a07e652eea46dbb5195b8074772c62a77bbf568.jpeg) 0% 0% / 100% rgb(170, 106, 255);"></div>
+                <div class="button_connect_text">Ambire</div>
+              </a>
+              <a class="button_connect" href="!">
+                <div class="button_connect_icon" style="background: url(https://registry.walletconnect.org/logo/sm/4d0cf1b635a59175b4ad6d6522b0b748ee920b1f8c32030fa704c00926efdf3e.jpeg) 0% 0% / 100% rgb(50, 202, 255);"></div>
+                <div class="button_connect_text">Paper</div>
+              </a>
+              <a class="button_connect" href="!">
+                <div class="button_connect_icon" style="background: url(https://registry.walletconnect.org/logo/sm/885123c0cb521fd121f0b200b0bdcf0d8d54d2f93699443ef11ecadf4a24baff.jpeg) 0% 0% / 100% rgb(17, 17, 17);"></div>
+                <div class="button_connect_text">NFT</div>
+              </a>
+              <a class="button_connect" href="https://punkwallet.io/wc?uri=wc%3A94970d94-cf4e-4bd9-8bb1-f1fb4e1e1a04%401%3Fbridge%3Dhttps%253A%252F%252Fv.bridge.walletconnect.org%26key%3D8318dcbfde3e95e041d1d3fd07713ddc549a06aadb53dddd5aaf3dce9a34f298">
+                <div class="button_connect_icon" style="background: url(https://registry.walletconnect.org/logo/sm/4c0203e76f3163c472073fa9be9843aabdd01a99cd1d0a5a87db5caa71f68898.jpeg) 0% 0% / 100% rgb(24, 144, 255);"></div>
+                <div class="button_connect_text">PunkWallet</div>
+              </a>
+              <a class="button_connect" href="https://punkwallet.io/wc?uri=wc%3A94970d94-cf4e-4bd9-8bb1-f1fb4e1e1a04%401%3Fbridge%3Dhttps%253A%252F%252Fv.bridge.walletconnect.org%26key%3D8318dcbfde3e95e041d1d3fd07713ddc549a06aadb53dddd5aaf3dce9a34f298">
+                <div class="button_connect_icon" style="background: url(https://registry.walletconnect.org/logo/sm/19418ecfd44963883e4d6abca1adeb2036f3b5ffb9bee0ec61f267a9641f878b.jpeg) 0% 0% / 100% rgb(255, 194, 17)"></div>
+                <div class="button_connect_text">KryptoGO</div>
+              </a>
+              <a class="button_connect" href="https://premanft.com/wc?uri=wc%3A94970d94-cf4e-4bd9-8bb1-f1fb4e1e1a04%401%3Fbridge%3Dhttps%253A%252F%252Fv.bridge.walletconnect.org%26key%3D8318dcbfde3e95e041d1d3fd07713ddc549a06aadb53dddd5aaf3dce9a34f298">
+                <div class="button_connect_icon" style="background: url(https://registry.walletconnect.org/logo/sm/5b8e33346dfb2a532748c247876db8d596734da8977905a27b947ba1e2cf465b.jpeg) rgb(14, 88, 166);"></div>
+                <div class="button_connect_text">PREMA</div>
+              </a>
+              <a class="button_connect" href="https://app.apollox.finance/wc?uri=wc%3A94970d94-cf4e-4bd9-8bb1-f1fb4e1e1a04%401%3Fbridge%3Dhttps%253A%252F%252Fv.bridge.walletconnect.org%26key%3D8318dcbfde3e95e041d1d3fd07713ddc549a06aadb53dddd5aaf3dce9a34f298">
+                <div class="button_connect_icon" style="background: url(https://registry.walletconnect.org/logo/sm/21b071705a9b9de1646e6a3a0e894d807d0fa4a208e88fc003ee056021f208e1.jpeg);"></div>
+                <div class="button_connect_text">ApolloX</div>
+              </a>
+              <a class="button_connect" href="https://sequence.app/wc?uri=wc%3A94970d94-cf4e-4bd9-8bb1-f1fb4e1e1a04%401%3Fbridge%3Dhttps%253A%252F%252Fv.bridge.walletconnect.org%26key%3D8318dcbfde3e95e041d1d3fd07713ddc549a06aadb53dddd5aaf3dce9a34f298">
+                <div class="button_connect_icon" style="background: url(https://registry.walletconnect.org/logo/sm/1f711d32b1df0f84741fafa2ad1d81599b01297cc7d22d153272cb3ef4232f19.jpeg) rgb(78, 71, 245);"></div>
+                <div class="button_connect_text">Sequence</div>
+              </a>
+              <a class="button_connect" href="https://app.vision-crypto.com/wc?uri=wc%3A94970d94-cf4e-4bd9-8bb1-f1fb4e1e1a04%401%3Fbridge%3Dhttps%253A%252F%252Fv.bridge.walletconnect.org%26key%3D8318dcbfde3e95e041d1d3fd07713ddc549a06aadb53dddd5aaf3dce9a34f298">
+                <div class="button_connect_icon" style="background: url(https://registry.walletconnect.org/logo/sm/c587c2601ccfc456cb7d4d9bb34f12f0fd11ad49faeeb4602860e239b5397843.jpeg) rgb(11, 18, 28);"></div>
+                <div class="button_connect_text">Vision</div>
+              </a>
+              <a class="button_connect" href="https://ricewallet.io/wc?uri=wc%3A94970d94-cf4e-4bd9-8bb1-f1fb4e1e1a04%401%3Fbridge%3Dhttps%253A%252F%252Fv.bridge.walletconnect.org%26key%3D8318dcbfde3e95e041d1d3fd07713ddc549a06aadb53dddd5aaf3dce9a34f298">
+                <div class="button_connect_icon" style="background: url(https://registry.walletconnect.org/logo/sm/c40b9bcef32fa6ce4e0df98be1420628bbc4957646f742380fe618fcb4ab74f1.jpeg) rgb(51, 97, 244);"></div>
+                <div class="button_connect_text">RICE Wallet</div>
+              </a>
+              <a class="button_connect" href="https://keyring.app/wc?uri=wc%3A94970d94-cf4e-4bd9-8bb1-f1fb4e1e1a04%401%3Fbridge%3Dhttps%253A%252F%252Fv.bridge.walletconnect.org%26key%3D8318dcbfde3e95e041d1d3fd07713ddc549a06aadb53dddd5aaf3dce9a34f298">
+                <div class="button_connect_icon" style="background: url(https://registry.walletconnect.org/logo/sm/47bb07617af518642f3413a201ec5859faa63acb1dd175ca95085d35d38afb83.jpeg) rgb(0, 210, 201);"></div>
+                <div class="button_connect_text">KEYRING PRO</div>
+              </a>
+              <a class="button_connect" href="https://console.fireblocks.io/v2/wc?uri=wc%3A94970d94-cf4e-4bd9-8bb1-f1fb4e1e1a04%401%3Fbridge%3Dhttps%253A%252F%252Fv.bridge.walletconnect.org%26key%3D8318dcbfde3e95e041d1d3fd07713ddc549a06aadb53dddd5aaf3dce9a34f298">
+                <div class="button_connect_icon" style="background: url(https://registry.walletconnect.org/logo/sm/5864e2ced7c293ed18ac35e0db085c09ed567d67346ccb6f58a0327a75137489.jpeg);"></div>
+                <div class="button_connect_text">Fireblocks</div>
+              </a>
+              <a class="button_connect" href="wallet3://wc?uri=wc%3A94970d94-cf4e-4bd9-8bb1-f1fb4e1e1a04%401%3Fbridge%3Dhttps%253A%252F%252Fv.bridge.walletconnect.org%26key%3D8318dcbfde3e95e041d1d3fd07713ddc549a06aadb53dddd5aaf3dce9a34f298/">
+                <div class="button_connect_icon" style="background: url(https://registry.walletconnect.org/logo/sm/34c19e0afafeb86ffa75df1c04445b8840450217e79d30abc6def9aa537fb7d6.jpeg) rgb(97, 134, 255);"></div>
+                <div class="button_connect_text">Wallet3</div>
+              </a>
+            </div>
+          </div>  
+        </div>
+      </div>
+    </div>
     <div class="p2">
       <div>
         <p class="grey">社区拥有和经营</p>
@@ -44,7 +151,7 @@
       </div>
     </div>
   
-    <div class="runing">
+    <div class="runing" style="display: none;">
       <div>
         <ul class="center flex mb-2">
           <li>

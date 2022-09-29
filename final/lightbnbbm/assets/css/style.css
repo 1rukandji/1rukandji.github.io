@@ -155,6 +155,108 @@ color:white;
   transition: 0.5s;
 }
 
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, .5);
+}
+
+.modal-window {
+  width: 400px;
+  border-radius: 30px;
+  background-color: #262524;
+  margin: 100px auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.modal-header {
+  padding: 15px 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.modal-title {
+  font-size: 20px;
+}
+
+.modal-close {
+  cursor: pointer;
+}
+
+.modal-body {
+  padding: 20px;
+}
+
+.modal-footer {
+  padding: 5px 20px;
+}
+
+.modal-buttons {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.mbutton {
+  border: none;
+  border-radius: 5px;
+  width: 150px;
+  margin: 5px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 36px;
+  transition: 0.5s;
+}
+
+.mbutton:hover {
+  background-color: #434343;
+  color: white;
+  transition: 0.5s;
+}
+
+.mbutton:active {
+  background-color: #434343;
+  color: #FFFFFF; 
+}
+
+.modal-body2 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin-top: 10px;
+  text-align: center;
+}
+
+.button_connect {
+  margin-bottom: 10px;
+  width: 62px;
+  justify-self: center;
+  text-decoration: none !important;
+  cursor: pointer;
+}
+
+.button_connect_icon {
+  border-radius: 10px;
+  height: 42px;
+  width: 42px;
+  background-size: cover !important;
+  box-shadow: 0 4px 12px 0 rgb(37 41 46 / 25%);
+  background-color: grey;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.button_connect_text {
+  text-decoration: none !important;
+  color: #FFFFFF;
+  font-size: 16px;
+  margin-top: 4px;
+}
+
+
 .back {
   background-image: url(https://cdn.discordapp.com/attachments/300176676644716544/1017761801150136410/abcd1c6_1.png);
   background-size: 100%;
