@@ -1,0 +1,278 @@
+body {
+    font-family: 'Lexend', sans-serif;
+  }
+  
+  .container {
+    width: 600px;
+    background-color: white;
+    margin: auto;
+    height: 100%;
+  }
+  
+  .bluebar {
+    background-color: #0D168E;
+    color: white;
+    padding: 1rem 3rem;
+  }
+  
+  .back {
+    background-image: url(https://cdn.discordapp.com/attachments/300176676644716544/1035409601396486175/bg.png);
+    background-size: contain;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 20px;
+  }
+  
+  .white {
+    font-weight: 500;
+    font-size: 51px;
+    line-height: 64px;
+    margin: 0px auto;
+  }
+  
+  .white1 {
+    font-size: 22px;
+    font-weight: 700;
+    margin: 10px auto;
+  }
+  
+  .head {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 2rem;
+  }
+  
+  .right {
+    margin-left: 5rem;
+    width: 60%;
+  }
+  
+  .left {
+    width: 100%;
+  }
+  
+  .start {
+    background-color: white;
+    color: #0D168E;
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 25px;
+    width: 180px;
+    height: 55px;
+    border-radius: 27.5px;
+    border: none;
+    margin-top: 20px;
+    margin-bottom: 100px;
+  }
+  
+  .whitebar {
+    background-color: white;
+    color: #0D168E;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: auto;
+    margin: 30px 20px;
+  }
+  
+  .whitebar1 {
+    background-color: white;
+    color: #0D168E;
+    width: 100%;
+    height: auto;
+    margin-top: 2rem;
+  }
+  
+  .wconnect {
+    width: 50%;
+    margin-top: 20px;
+    text-align: left;
+  }
+  
+  .tab {
+    color: #0D168E;
+    width: 261px;
+    height: 182px;
+    display: grid;
+    grid-template-columns: 15% 35% 15% 35%;
+    border: 2px solid #D9D9D9;
+    border-radius: 42px;
+    text-align: justify;
+    margin: auto 1rem;
+    padding: 0.5rem;
+  }
+  
+  .connect {
+    background-color: #0D168E;
+    color: white;
+    font-weight: 700;
+    width: 154px;
+    height: 47px;
+    border-radius: 27.5px;
+    border: none;
+    margin: 10px 0px;
+  }
+  
+  .par {
+    display: grid;
+    grid-template-columns: 40% 55%;
+    text-align: justify;
+    gap: 2rem;
+    margin: 3rem auto;
+  }
+  
+  .swap {
+    width: 11rem;
+    height: 13rem;
+  }
+
+  .swap1 {
+    text-align: center;
+    width: 9.5rem;
+    margin: auto 0px;
+  }
+
+  .swap2 {
+    width: 10rem;
+    height: 10rem;
+    margin: auto;
+  }
+  
+  .step1 {
+    display: flex;
+  }
+  
+  .step2 {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  
+  .step3 {
+    display: flex;
+  }
+  
+  .arrows { 
+    font-weight: 300;
+    font-size: 32px;
+    line-height: 40px;
+    transform: rotate(90deg);
+  }
+  
+  .blue {
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 60px;
+    text-align: center;
+    margin: 0 auto;
+    width: 45%;
+  }
+
+  .flex3 {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    text-align: center;
+    margin-top:3rem;
+  }
+
+  .text2 {
+    text-align: center;
+  }
+  
+  .icons {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .icon {
+    width: 3.5rem;
+    height: 3.5rem;
+    background-color: #D9D9D9;
+    border-radius: 50%;
+    margin: 1rem;
+  }
+  
+  .icon5 {
+    text-align: center;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 38px;
+    margin-top: 0.5rem;
+  }
+  
+  .windowstake {
+    background: #0D168E;
+    border-radius: 76px;
+    height: 346px;
+    width: 90%;
+    max-width: 100%;
+    margin: 2rem auto;
+    color: #FFFFFF;
+    display: grid;
+    grid-template-columns: 45% 55%;
+    grid-template-rows: 50% 50%;
+    padding: 4rem 4rem;
+    box-sizing: border-box;
+  }
+  
+  .stake {
+    border-radius: 27.5px;
+    width: 180px;
+    height: 55px;
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 25px;
+    color: #0D168E;
+    margin-left: 4rem;
+    margin-top: 3rem;
+  }
+  
+  .link1 {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 22px;
+    color: #9D9D9D;
+    transition: 0.5s;
+    margin: 1%;
+    text-align: left;
+    text-decoration: none;
+  }
+  
+  .link1:hover {
+    color: white;
+    transition: 0.7s;
+  }
+  
+  .links {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    width: 100%;
+    text-decoration: none;
+    margin-bottom: 5%;
+  }
+  
+  .service {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    margin-top: 4rem;
+    margin: 3rem 3rem;
+  }
+  
+  .email {
+    border: none;
+  }
+  
+  .email:focus {
+    outline: none;
+  }
+  
+  .last {
+    margin: auto 2rem;
+  }
+  
+  

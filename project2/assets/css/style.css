@@ -1,0 +1,263 @@
+body {
+  font-family: 'Lexend', sans-serif;
+}
+
+.container {
+  width: 1200px;
+  background-color: white;
+  margin: auto;
+  height: 100%;
+}
+
+.bluebar {
+  background-color: #0D168E;
+  color: white;
+  padding: 1rem 3rem;
+}
+
+.back {
+  background-image: url(https://cdn.discordapp.com/attachments/300176676644716544/1035409601396486175/bg.png);
+  background-size:contain;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 20px;
+}
+
+.white {
+  font-weight: 500;
+  font-size: 51px;
+  line-height: 64px;
+  margin: 0px auto;
+}
+
+.white1 {
+  font-size: 22px;
+  font-weight: 700;
+  margin: 10px auto;
+}
+
+.head {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 8rem;
+}
+
+.right {
+  margin-right: 20px;
+}
+
+.left {
+  width: 50%;
+}
+
+.start {
+  background-color: white;
+  color: #0D168E;
+  font-weight: 500;
+  font-size: 19px;
+  line-height: 25px;
+  width: 180px;
+  height: 55px;
+  border-radius: 27.5px;
+  border: none;
+  margin-top: 20px;
+  margin-bottom: 100px;
+}
+
+.whitebar {
+  background-color: white;
+  color: #0D168E;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: auto;
+  margin: 30px 20px;
+}
+
+.whitebar1 {
+  background-color: white;
+  color: #0D168E;
+  width: 100%;
+  height: auto;
+  margin-top: 2rem;
+}
+
+.wconnect {
+  width: 50%;
+  margin-right: 30px;
+  margin-top: 20px;
+}
+
+.tab {
+  color: #0D168E;
+  width: 376px;
+  height: 250px;
+  display: grid;
+  grid-template-columns: 15% 35% 15% 35%;
+  border: 2px solid #D9D9D9;
+  border-radius: 42px;
+  text-align: justify;
+  margin: auto 0px;
+}
+
+.connect {
+  background-color: #0D168E;
+  color: white;
+  font-weight: 700;
+  width: 180px;
+  height: 55px;
+  border-radius: 27.5px;
+  border: none;
+  margin: 10px 0px;
+}
+
+.par {
+  display: grid;
+  grid-template-columns: 40% 55%;
+  text-align: justify;
+  gap: 2rem;
+  margin: 3rem auto;
+}
+
+.flex1 {
+  display: flex;
+  justify-content: space-between;
+  font-size: 24px;
+}
+
+.swap {
+  width: 17rem;
+  height: 20rem;
+}
+
+.step1 {
+  text-align: center;
+}
+
+.step2 {
+  text-align: center;
+}
+
+.step3 {
+  text-align: center;
+}
+
+.arrows {
+  margin-top: auto;
+  font-weight: 300;
+  font-size: 32px;
+  line-height: 40px;
+}
+
+.blue {
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 60px;
+  text-align: center;
+  margin: 0 auto;
+  width: 45%;
+}
+
+.icons {
+  display: flex;
+  justify-content: center;
+
+}
+
+.icon {
+  width: 3.5rem;
+  height: 3.5rem;
+  background-color: #D9D9D9;
+  border-radius: 50%;
+  margin: 1rem;
+}
+
+.icon5 {
+  text-align: center;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 38px;
+  margin-top: 0.5rem;
+}
+
+.swap1 {
+  width: 10rem;
+  margin-top: 4rem;
+}
+
+.windowstake {
+  background: #0D168E;
+  border-radius: 76px;
+  height: 346px;
+  width: 90%;
+  max-width: 100%;
+  margin: 2rem auto;
+  color: #FFFFFF;
+  display: grid;
+  grid-template-columns: 45% 55%;
+  grid-template-rows: 50% 50%;
+  padding: 4rem 4rem;
+  box-sizing: border-box;
+}
+
+.stake {
+  border-radius: 27.5px;
+  width: 180px;
+  height: 55px;
+  font-weight: 500;
+  font-size: 19px;
+  line-height: 25px;
+  color: #0D168E;
+  margin-left: 13rem;
+  margin-top: 3rem;
+}
+
+.link1 {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 25px;
+  color: #9D9D9D;
+  transition: 0.5s;
+  margin: 1%;
+  text-align: left;
+  text-decoration: none;
+}
+
+.link1:hover {
+  color: white;
+  transition: 0.7s;
+}
+
+.links {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  width: 100%;
+  text-decoration: none;
+  margin-bottom: 5%;
+}
+
+.service {
+  display: grid;
+  grid-template-columns: 60% 40%;
+  margin-top: 4rem;
+  margin: 3rem 3rem;
+}
+
+.email {
+  border: none;
+}
+
+.email:focus {
+  outline: none;
+}
+
+.last {
+  margin: auto 2rem;
+}
+
