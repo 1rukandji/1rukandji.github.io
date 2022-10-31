@@ -8,7 +8,6 @@ body {
 }
 
 .container {
-  width: 1200px;
   background-color: white;
   margin: auto;
   height: 100%;
@@ -17,12 +16,15 @@ body {
 .bluebar {
   background-color: #0D168E;
   color: white;
-  padding: 1rem 3rem;
+  padding: 1rem 20rem;
+  background-position: inherit;
+  background-size: cover;
+
 }
 
 .back {
   background-image: url(https://cdn.discordapp.com/attachments/300176676644716544/1035409601396486175/bg.png);
-  background-size:contain;
+  background-size: contain;
 }
 
 header {
@@ -81,20 +83,21 @@ header {
   justify-content: space-between;
   width: 100%;
   height: auto;
-  margin: 30px 20px;
+  margin: 60px 20px;
+  padding: 1rem 20rem;
 }
 
 .whitebar1 {
   background-color: white;
   color: #0D168E;
-  width: 100%;
+
   height: auto;
   margin-top: 2rem;
+  padding: 1rem 20rem;
 }
 
 .wconnect {
-  width: 50%;
-  margin-right: 30px;
+  margin-left: 2rem;
   margin-top: 20px;
 }
 
