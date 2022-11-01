@@ -98,13 +98,14 @@ header {
 .wconnect {
   margin-left: 2rem;
   margin-top: 20px;
+  width: 43%;
 }
 
 .whitebar2 {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding: 3rem 12%;
+  padding: 8rem 12%;
 
 }
 
@@ -196,6 +197,24 @@ header {
   margin: 1rem;
 }
 
+.icon1 {
+  background-image: url(https://cdn.discordapp.com/attachments/300176676644716544/1036982730010939442/beta_1.png);
+  background-size: 110%;
+  background-position: center;
+}
+
+.icon2 {
+  background-image: url(https://cdn.discordapp.com/attachments/300176676644716544/1036982729520185426/gf_1.png);
+  background-size: 100%;
+  background-position: center;
+}
+
+.icon3 {
+  background-image: url(https://cdn.discordapp.com/attachments/300176676644716544/1036982729151103016/pstake_1.png);
+  background-size: 110%;
+  background-position: center;
+}
+
 .icon5 {
   text-align: center;
   font-weight: 400;
@@ -264,7 +283,7 @@ header {
 
 .service {
   display: grid;
-  grid-template-columns: 60% 40%;
+  grid-template-columns: 50% 50%;
   margin-top: 4rem;
   margin: 3rem 3rem;
 }
@@ -281,3 +300,6 @@ header {
   margin: 2rem 2rem;
 }
 
+.mail {
+  margin: auto;
+}
