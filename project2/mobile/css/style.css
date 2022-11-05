@@ -6,6 +6,10 @@
 body {
     font-family: 'Lexend', sans-serif;
   }
+
+  button {
+    cursor: pointer;
+  }
   
   .container {
     width: 600px;
@@ -166,6 +170,7 @@ body {
     font-size: 32px;
     line-height: 40px;
     transform: rotate(90deg);
+    width: 4rem; margin: 0px auto;
   }
   
   .blue {
@@ -200,6 +205,22 @@ body {
     border-radius: 50%;
     margin: 1rem;
   }
+
+  .icon1 {
+    background-image: url(https://media.discordapp.net/attachments/300176676644716544/1036982730010939442/beta_1.png);
+    background-position: center;
+  }
+
+  .icon2 {
+    background-image: url(https://media.discordapp.net/attachments/300176676644716544/1036982729520185426/gf_1.png);
+    background-position: center;
+    background-size: cover;
+  }
+
+  .icon3 {
+    background-image: url(https://media.discordapp.net/attachments/300176676644716544/1036982729151103016/pstake_1.png);
+    background-position: center;
+  }
   
   .icon5 {
     text-align: center;
@@ -232,7 +253,7 @@ body {
     font-size: 19px;
     line-height: 25px;
     color: #0D168E;
-    margin-left: 4rem;
+    margin-left: 2rem;
     margin-top: 3rem;
   }
   
@@ -258,18 +279,25 @@ body {
     grid-template-columns: 25% 25% 25% 25%;
     width: 100%;
     text-decoration: none;
-    margin-bottom: 5%;
+    gap: 3%;
   }
   
   .service {
-    display: grid;
-    grid-template-columns: 60% 40%;
-    margin-top: 4rem;
-    margin: 3rem 3rem;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
   }
   
   .email {
     border: none;
+    width: 70%; 
+    height: 2.5rem; 
+    margin-top: 1rem;
+    background: #FFFFFF; 
+    border-radius: 12px; 
+    font-weight: 300; 
+    font-size: 20px; 
+    line-height: 25px; 
+    color: #0D168E;
   }
   
   .email:focus {
@@ -277,7 +305,183 @@ body {
   }
   
   .last {
-    margin: auto 2rem;
+    margin: 1rem;
   }
   
+  .name {
+    font-weight: 600; 
+    font-size: 24px; 
+    line-height: 30px;
+  }
+
+  .connectbutton {
+    font-weight: 600; 
+    font-size: 19px; 
+    line-height: 24px; 
+    text-decoration: none; 
+    color: #FFFFFF;
+  }
+
+  .title {
+    font-weight: 500; 
+    font-size: 32px; 
+    line-height: 40px;
+  }
+
+  .center {
+    text-align: center;
+  }
+
+  .subtitle {
+    font-weight: 300; 
+    font-size: 18px; 
+    line-height: 22px; 
+    color: #9D9D9D;
+  }
   
+  .boldwhite {
+    font-weight: 700; font-size: 28px; line-height: 35px;
+  }
+  
+  .mtop {
+    margin-top: 1rem;
+  }
+
+  .thinwhite {
+    font-weight: 400; 
+    font-size: 25px; 
+    line-height: 31px;
+  }
+
+  .barm {
+    margin: 2rem 0px;
+  }
+
+  .walletlogo {
+    margin: auto 1rem; 
+    width: 24px; 
+    height: 24px;
+  }
+
+  .walletlogo1 {
+    margin: auto; 
+    margin-left: 0.7rem; 
+    width: 34px; 
+    height: 33px;
+  }
+
+  .walletname {
+    font-weight: 300; 
+    font-size: 12px; 
+    line-height: 15px; 
+    text-align: center; 
+    margin: auto 0px;
+  }
+
+  .bluetitle {
+    color: #0D168E;
+    font-weight: 600; 
+    font-size: 32px; 
+    line-height: 40px;
+  }
+
+  .stitle {
+    font-weight: 700;
+    font-size: 22px; 
+    line-height: 28px;
+  }
+
+  .disription {
+    font-weight: 300; 
+    font-size: 15px; 
+    line-height: 19px;
+  }
+
+  .bigtitle {
+    font-weight: 500;
+    font-size: 32px; 
+    line-height: 40px; 
+    text-align: center;
+  }
+
+  .step {
+    font-weight: 600; 
+    font-size: 22px; 
+    line-height: 28px;
+  }
+
+  .stepdiscription {
+    font-weight: 300; 
+    font-size: 22px; 
+    line-height: 28px;
+  }
+  
+  .bigbluetitle {
+    font-weight: 500; 
+    font-size: 32px; 
+    line-height: 40px; 
+    color: #0D168E; 
+    width:55%; 
+    text-align: center; 
+    margin: 0px auto;
+  }
+
+  .smalldiscription {
+    font-weight: 300; 
+    font-size: 15px; 
+    line-height: 19px; 
+    text-align: center; 
+    color: #0D168E; 
+    margin: 0px auto;
+  }
+
+  .smalltitle {
+    font-weight: 400; 
+    font-size: 20px; 
+    line-height: 25px;
+  }
+
+  .greydiscription {
+    font-weight: 300; 
+    font-size: 16px; 
+    line-height: 20px; 
+    color: #717171; 
+    width: 60%; 
+    margin: 0 auto;
+  }
+
+  .thinwindowstake {
+    font-weight: 300; 
+    font-size: 18px; 
+    line-height: 22px;
+  }
+
+  .boldwindowstake {
+    font-weight: 600;
+    font-size: 18px; 
+    line-height: 22px;
+  }
+
+  .mauto {
+    margin: auto;
+  }
+
+  .etitle {
+    font-weight: 600; 
+    font-size: 32px; 
+    line-height: 40px;
+  }
+
+  .greydiscription2 {
+    font-weight: 500; 
+    font-size: 16px; 
+    line-height: 21px; 
+    color: #9D9D9D;
+  }
+
+  .linkclass {
+    font-weight: 500; 
+    font-size: 18px; 
+    line-height: 22px; 
+    color: #FFFFFF;
+  }

@@ -95,6 +95,10 @@ header {
   padding: 1rem 12%;
 }
 
+button {
+  cursor: pointer;
+}
+
 .wconnect {
   margin-left: 2rem;
   margin-top: 20px;
@@ -106,7 +110,14 @@ header {
   flex-direction: row;
   justify-content: space-between;
   padding: 8rem 12%;
+}
 
+.marg {
+  margin: 7rem auto;
+}
+
+.width {
+  width: 50%;
 }
 
 .tab {
@@ -290,6 +301,14 @@ header {
 
 .email {
   border: none;
+  width: 25rem; 
+  height: 2.5rem; 
+  background: #FFFFFF; 
+  border-radius: 12px; 
+  font-weight: 300; 
+  font-size: 20px; 
+  line-height: 25px; 
+  color: #0D168E; 
 }
 
 .email:focus {
@@ -302,4 +321,188 @@ header {
 
 .mail {
   margin: auto;
+}
+
+.linkh {
+  margin: auto 10px; 
+  text-decoration: none; 
+  color: white;
+}
+
+.head1 {
+  display: flex;
+}
+
+.title {
+  font-weight: 500;
+  width: 80%; 
+  font-size: 51px;
+  line-height: 64px;
+}
+
+.subtitle {
+  font-weight: 300; 
+  font-size: 22px; 
+  line-height: 28px; 
+  color: #9D9D9D;
+}
+
+.subtitlem {
+  margin: 1rem auto;
+}
+
+.wallet {
+  font-weight: 300; 
+  font-size: 16px; 
+  line-height: 20px; 
+  text-align: center; 
+  margin: auto 0px;
+}
+
+.walletlogo {
+  margin: auto 1rem;
+}
+
+.walletlogom {
+  margin: auto;
+}
+
+.walletlogow {
+  width: 2.5rem;
+}
+
+.bluetitle {
+  color: #0D168E;
+  font-weight: 600; 
+  font-size: 51px; 
+  line-height: 64px;
+}
+
+.bigtitle {
+  font-weight: 500; 
+  font-size: 48px; 
+  line-height: 60px; 
+  text-align: center;
+}
+
+.bigbluetitle {
+  font-weight: 500; 
+  font-size: 48px; 
+  line-height: 60px; 
+  color: #0D168E;
+  width:55%; 
+  text-align: center; 
+  margin: 0px auto;
+}
+
+.discription {
+  font-weight: 300; 
+  font-size: 20px; 
+  line-height: 25px;
+}
+
+.bluediscription {
+  font-weight: 300; 
+  font-size: 20px; 
+  line-height: 25px; 
+  text-align: center; 
+  color: #0D168E; 
+  margin: 0px auto;
+}
+
+.stitle {
+  font-weight: 700; 
+  font-size: 26px; 
+  line-height: 32px;
+}
+
+.boldwhite {
+  font-weight: 700; 
+  font-size: 43px; 
+  line-height: 54px;
+}
+
+.thinwhite {
+  font-weight: 400; 
+  font-size: 25px; 
+  line-height: 31px;
+}
+
+.whitew {
+  width: 60%;
+}
+
+.barpad {
+  padding-bottom: 6rem;
+}
+
+.step {
+  font-weight: 600; 
+  font-size: 22px; 
+  line-height: 28px;
+}
+
+.stepdiscription {
+  font-weight: 300; 
+  font-size: 32px; 
+  line-height: 40px; 
+  margin-top: 2rem;
+}
+
+.sbluetitle {
+  font-weight: 400; 
+  font-size: 20px; 
+  line-height: 25px;
+}
+
+.sbluediscription {
+  font-weight: 300; 
+  font-size: 16px; 
+  line-height: 20px; 
+  color: #717171; 
+  width: 60%; 
+  margin: 0 auto;
+}
+
+.swhite {
+  font-weight: 300; 
+  font-size: 22px;
+}
+
+.xswhite {
+  font-weight: 300;
+  font-size: 22px;
+  line-height: 28px;
+}
+
+.xswhite1 {
+  font-weight: 300; 
+  font-size: 20px; 
+  line-height: 25px;
+}
+
+.swhite1 {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 40px;
+}
+
+.greydiscription {
+  font-weight: 500; 
+  font-size: 16px; 
+  line-height: 21px; 
+  color: #9D9D9D;
+}
+
+.servicetitle {
+  font-weight: 600; 
+  font-size: 32px; 
+  line-height: 40px;
+}
+
+.linkstitle {
+  font-weight: 500; 
+  font-size: 22px; 
+  line-height: 28px; 
+  color: #FFFFFF;
 }
