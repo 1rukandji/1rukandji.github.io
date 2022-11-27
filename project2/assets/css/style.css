@@ -113,7 +113,7 @@ button {
 }
 
 .marg {
-  margin: 7rem auto;
+  margin: auto;
 }
 
 .width {
@@ -155,6 +155,24 @@ button {
   display: flex;
   justify-content: space-between;
   font-size: 24px;
+}
+
+.energ {
+  height: 22rem;
+  margin-bottom: 1rem;
+}
+
+.whitebar3 {
+  background-color: white;
+  color: #0D168E;
+  height: auto;
+  padding-left: 12%;
+  padding-right: 10%;
+  padding-bottom: 0px;
+}
+
+.center {
+  margin: auto;
 }
 
 .swap {
@@ -506,3 +524,27 @@ button {
   line-height: 28px; 
   color: #FFFFFF;
 }
+
+.dropdown {
+  position: absolute;
+  left: 50%;
+}
+
+.dropdown-content {
+  display: none;
+  min-width: 110px;
+  font-size: 25px;
+  
+}
+
+.dropdown-content a {
+  color: #828282;
+  padding: 6px 13px;
+  text-decoration: none;
+  display: block;
+  background: white;
+}
+
+.dropdown-content a:hover {background-color: #00b5cc;}
+.dropdown:hover .dropdown-content {display: block;}
+.dropdown:hover .dropbtn {background-color: #3e8e41;}

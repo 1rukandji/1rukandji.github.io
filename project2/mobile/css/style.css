@@ -34,6 +34,29 @@ body {
     justify-content: space-between;
     margin: 0px 20px;
   }
+
+  .dropdown {
+    position: absolute;
+    left: 70%;
+  }
+  
+  .dropdown-content {
+    display: none;
+    min-width: 130px;
+    font-size: 20px;
+  }
+  
+  .dropdown-content a {
+    color: #282828;
+    padding: 6px 13px;
+    text-decoration: none;
+    display: block;
+    background: white;
+  }
+  
+  .dropdown-content a:hover {background-color: #00b5cc;}
+  .dropdown:hover .dropdown-content {display: block;}
+  .dropdown:hover .dropbtn {background-color: #3e8e41;}
   
   .white {
     font-weight: 500;
@@ -89,6 +112,11 @@ body {
     margin: 30px 20px;
   }
   
+.flex1 {
+  display: flex;
+  justify-content: space-between;
+}
+
   .whitebar1 {
     background-color: white;
     color: #0D168E;
@@ -97,6 +125,10 @@ body {
     margin-top: 2rem;
   }
   
+  .energ {
+    height: auto;
+  }
+
   .wconnect {
     width: 50%;
     margin-top: 20px;
@@ -296,7 +328,7 @@ body {
     border-radius: 12px; 
     font-weight: 300; 
     font-size: 20px; 
-    line-height: 25px; 
+    line-height: 25px;
     color: #0D168E;
   }
   
@@ -340,7 +372,9 @@ body {
   }
   
   .boldwhite {
-    font-weight: 700; font-size: 28px; line-height: 35px;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 34px;
   }
   
   .mtop {
@@ -351,6 +385,13 @@ body {
     font-weight: 400; 
     font-size: 25px; 
     line-height: 31px;
+  }
+
+  .whitew {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 20px;
+    color: #9D9D9D;
   }
 
   .barm {
