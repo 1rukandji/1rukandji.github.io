@@ -159,7 +159,6 @@ button {
 
 .energ {
   height: 22rem;
-  margin-bottom: 1rem;
 }
 
 .whitebar3 {
@@ -538,11 +537,11 @@ button {
 }
 
 .dropdown-content a {
-  color: #828282;
+  color: white;
   padding: 6px 13px;
   text-decoration: none;
   display: block;
-  background: white;
+
 }
 
 .dropdown-content a:hover {background-color: #00b5cc;}
