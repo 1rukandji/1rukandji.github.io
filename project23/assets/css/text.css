@@ -1,0 +1,214 @@
+.h1 {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 26px;
+}
+
+.language {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 26px;
+}
+
+.connectw {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 26px;
+    color: white;
+}
+
+.h2 {
+    font-weight: 400;
+    font-size: 102px;
+    line-height: 130px;
+}
+
+.h3 {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+}
+
+.black {
+    color: #171818;
+}
+
+.h4 {
+    font-weight: 600;
+    font-size: 58px;
+    line-height: 68px;
+}
+
+.h5 {
+    font-weight: 400;
+    font-size: 59px;
+    line-height: 74px;
+}
+
+.h6 {
+    font-weight: 300;
+    font-size: 58px;
+    line-height: 32px;
+}
+
+.h7 {
+    font-weight: 200;
+    font-size: 38px;
+    line-height: 68px;
+}
+
+.h8 {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+}
+
+.delegate {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 26px;
+}
+
+.h9 {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 32px;
+}
+
+.h10 {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 32px;
+}
+
+.h11 {
+    font-weight: 200;
+    font-size: 28px;
+    line-height: 50px;
+}
+
+.discover {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 26px;
+    color: white;
+}
+
+.h12 {
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 60px;
+}
+
+.h13 {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 32px;
+}
+
+.h14 {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 32px;
+}
+
+.stitle {
+    font-weight: 400;
+    font-size: 58px;
+    line-height: 68px;
+}
+
+.h15 {
+    font-weight: 300;
+    font-size: 58px;
+    line-height: 68px;
+}
+
+.h16 {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 32px;
+}
+
+.learn {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 26px;
+}
+
+.tiletitle {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 26px;
+}
+
+.rewards {
+    font-weight: 200;
+    font-size: 15px;
+    line-height: 26px;
+    color: #171818;
+}
+
+.percent {
+    font-weight: 200;
+    font-size: 36px;
+    line-height: 26px;
+}
+
+.h17 {
+    font-weight: 400;
+    font-size: 101px;
+    line-height: 118px;
+}
+
+.h18 {
+    font-weight: 200;
+    font-size: 22px;
+    line-height: 32px;
+}
+
+.h19 {
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 32px;
+}
+
+.h20 {
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 32px;
+}
+
+.h21 {
+    font-weight: 300;
+    font-size: 58px;
+    line-height: 32px;
+}
+
+.h22 {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+}
+
+.linkstitle {
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 32px;
+}
+
+.link1 {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 24px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.link2 {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 24px;
+    color: #808080;
+    text-decoration: none;
+}

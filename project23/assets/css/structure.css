@@ -1,0 +1,426 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+.container {
+    height: 100%;
+}
+
+.blackbar {
+    background: #171818;
+    padding: 2rem 12%;
+    color: #FFFFFF;
+}
+
+.blackbar2 {
+    background: #060606;
+    padding: 8rem 16%;
+    color: #FFFFFF;
+}
+
+.greenbar {
+    background: #2E3736;
+    padding: 2rem 20%;
+    color: #FFFFFF;
+}
+
+.greybar {
+    background: #171818;
+    padding: 2rem 20%;
+    color: #ffffff;
+}
+
+.greypanel {
+    background: #171818;
+    width: 100%;
+    padding-top: 4rem;
+    padding-bottom: 5rem;
+}
+
+.flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: auto;
+    margin-bottom: auto;
+    gap: 3rem;
+}
+
+.flex1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 3rem;
+}
+
+.flex2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 12rem;
+    text-align: center;
+    margin-left: 2rem;
+    margin-top: 3rem;
+}
+
+.flex3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10.5rem;
+}
+
+.connectw {
+    background: #2E3736;
+    border-radius: 29.5px;
+    width: 274px;
+    height: 59px;
+    border: 0px;
+}
+
+.language {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.w13 {
+    width: 13rem;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.h2 {
+    text-align: center;
+}
+
+.marg1 {
+    margin-left: 7rem;
+}
+
+.marg2 {
+    margin-left: 3rem;
+}
+
+.firstpar {
+    margin-bottom: 25rem;
+    padding-top: 14rem;
+    background-image: url(https://cdn.discordapp.com/attachments/849980871959248917/1066228707456458832/div_1.png);
+    background-repeat: no-repeat;
+    background-position: 37%;   
+}
+
+.secondpar {
+    padding-top: 14rem;
+    background-image: url(https://cdn.discordapp.com/attachments/849980871959248917/1066228707456458832/div_1.png);
+    background-repeat: no-repeat;
+    background-position: 37%;   
+}
+
+.h9 {
+    margin-top: 12rem;
+}
+
+
+.headerimg {
+    position: absolute;
+    margin-left: 50%;
+}
+
+.whitebar {
+    background: #FFFFFF;
+    padding: 2rem 12%;
+    color: #000000; 
+}
+
+.w50 {
+    width: 41%;
+    text-align: justify;
+}
+
+.margtop {
+    margin-top: 2rem;
+}
+
+.tcenter {
+    text-align: center;
+}
+
+.h7 {
+    width: 50%;
+}
+
+.margtop2 {
+    margin-top: 6%;
+}
+
+.line {
+    width: 75%;
+    height: 36px;
+    background: #D9D9D9;
+    border-radius: 34px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3rem;
+}
+
+.bline {
+    background: #2E3736;
+    border-radius: 34px;
+    width: 27%;
+    height: 36px;
+    margin-left: -0.5rem;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    justify-content:center;
+    margin-top: 4rem;
+}
+
+.h8 {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.delegate {
+    width: 19%;
+    height: 59px;
+    background: #2E3736;
+    border-radius: 29.5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.w14 {
+    width: 16%;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.h9 {
+    width: 55%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+}
+
+.h10 {
+    margin-top: 2rem;
+    width: 45%;
+    margin-left: 22.5%;
+    margin-right: auto;
+    text-align: left;
+}
+
+.discover {
+    border: 1px solid #FFFFFF;
+    background: none;
+    border-radius: 29.5px;
+    width: 36%;
+    height: 59px;
+    margin-right: 80%;
+    margin-top: 2rem;
+}
+
+.icons {
+    margin-top: 2rem;
+}
+
+.cryptomarket {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-top: 6rem;
+}
+.h11 {
+    text-align: justify;
+    width: 90%;
+}
+
+.h12 {
+    text-align: left;
+    margin-top: 4rem;
+    margin-bottom: 1rem;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.grid2 {
+    display: grid;
+    grid-template-columns: 33% 33% 24%;
+    gap: 2rem;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.logo1 {
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.logo2 {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.logo3 {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.logo4 {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.logo5 {
+    margin-top: -0.5rem;
+    width: 60%;
+    margin-left: 1rem;
+}
+
+.blogo {
+    margin: auto;
+}
+
+.stairs {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 8rem;
+}
+
+.stair1 {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.part1 {
+    margin: auto;
+    text-align: left;
+    width: 60%;
+}
+
+.stairicon {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.stitle {
+    width: 80%;
+}
+
+.appstore {
+    margin-left: 1rem;
+}
+
+.coming {
+    margin-top: 1rem;
+    margin-left: 0.5rem;
+}
+
+.h15 {
+    width: 55%;
+}
+
+.h16 {
+    width: 50%;
+}
+
+.learn {
+    background: #2E3736;
+    border-radius: 29.5px;
+    width: 19%;
+    height: 59px;
+    color: #FFFFFF;
+    border: none;
+    margin-top: 2.5rem;
+}
+
+.tiles {
+    display: grid;
+    grid-template-columns: 18% 18% 18% 18% 18%;
+    gap: 2%;
+    margin-top: 6rem;
+}
+
+.tile {
+    background: #2E3736;
+    border-radius: 31px;
+    text-align: center;
+}
+
+.tiletitle {
+    margin-top: 2.5rem;
+}
+
+.percent {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.h17 {
+    text-align: center;
+    padding: 10rem 0px;
+    background-image: url(https://cdn.discordapp.com/attachments/300176676644716544/1066209131419144283/img.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.h18 {
+    text-align: center;
+    margin-bottom: 0.5rem;
+}
+
+.buttonapply {
+    text-align: center;
+}
+
+.h21 {
+    margin-top: 5rem;
+}
+
+.h20 {
+    margin-top: 3rem;
+}
+
+.links {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    width: 75%;
+    margin-top: 12rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.link1 {
+    margin-top: 1rem;
+}
+
+.link2 {
+    margin-top: 1rem;
+}
+
+
