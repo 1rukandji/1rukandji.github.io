@@ -35,20 +35,20 @@
 
 .h4 {
     font-weight: 600;
-    font-size: 58px;
+    font-size: 44px;
     line-height: 68px;
 }
 
 .h5 {
     font-weight: 400;
-    font-size: 59px;
+    font-size: 48px;
     line-height: 74px;
 }
 
 .h6 {
     font-weight: 300;
-    font-size: 58px;
-    line-height: 32px;
+    font-size: 52px;
+    line-height: 42px;
 }
 
 .h7 {
@@ -84,7 +84,7 @@
 .h11 {
     font-weight: 200;
     font-size: 28px;
-    line-height: 50px;
+    line-height: 40px;
 }
 
 .discover {
@@ -97,7 +97,7 @@
 .h12 {
     font-weight: 400;
     font-size: 50px;
-    line-height: 60px;
+    line-height: 50px;
 }
 
 .h13 {
@@ -109,7 +109,7 @@
 .h14 {
     font-weight: 400;
     font-size: 22px;
-    line-height: 32px;
+    line-height: 26px;
 }
 
 .stitle {
@@ -146,7 +146,7 @@
     font-weight: 200;
     font-size: 15px;
     line-height: 26px;
-    color: #171818;
+    color: #808080
 }
 
 .percent {

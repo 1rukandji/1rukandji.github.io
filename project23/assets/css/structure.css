@@ -3,6 +3,12 @@
     padding: 0px;
 }
 
+html {
+    margin: 0px;
+    padding: 0px;
+    background: #060606;
+}
+
 body {
     font-family: 'Inter', sans-serif;
 }
@@ -19,13 +25,16 @@ body {
 
 .blackbar2 {
     background: #060606;
-    padding: 8rem 16%;
+    padding: 0px 16%;
+    padding-top: 8rem;
+    padding-bottom: 0px;
     color: #FFFFFF;
 }
 
 .greenbar {
     background: #2E3736;
-    padding: 2rem 20%;
+    padding: 0px 20%;
+    padding-top: 4rem;
     color: #FFFFFF;
 }
 
@@ -304,6 +313,7 @@ body {
 
 .blogo {
     margin: auto;
+    width: 40%;
 }
 
 .stairs {
@@ -326,6 +336,23 @@ body {
 .stairicon {
     margin-left: auto;
     margin-right: auto;
+    width: 50%;
+}
+
+.stairicon1 {
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+
+.waterfall {
+    width: 70%;
+    margin-left: 15rem;
+    margin-top: -10rem;
+}
+
+.market {
+    margin-top: 2rem;
 }
 
 .stitle {
@@ -410,7 +437,8 @@ body {
     display: grid;
     grid-template-columns: 25% 25% 25% 25%;
     width: 75%;
-    margin-top: 12rem;
+    margin-bottom: 30px;
+    margin-top: 5rem;
     margin-left: auto;
     margin-right: auto;
 }
