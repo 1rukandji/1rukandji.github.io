@@ -47,14 +47,14 @@
 
 .h6 {
     font-weight: 300;
-    font-size: 52px;
-    line-height: 42px;
+    font-size: 38px;
+    line-height: 38px;
 }
 
 .h7 {
     font-weight: 200;
-    font-size: 38px;
-    line-height: 68px;
+    font-size: 28px;
+    line-height: 38px;
 }
 
 .h8 {
@@ -70,13 +70,13 @@
 }
 
 .h9 {
-    font-weight: 400;
+    font-weight: 200;
     font-size: 22px;
     line-height: 32px;
 }
 
 .h10 {
-    font-weight: 700;
+    font-weight: 500;
     font-size: 22px;
     line-height: 32px;
 }
@@ -113,9 +113,9 @@
 }
 
 .stitle {
-    font-weight: 400;
-    font-size: 58px;
-    line-height: 68px;
+    font-weight: 200;
+    font-size: 38px;
+    line-height: 48px;
 }
 
 .h15 {
@@ -128,6 +128,12 @@
     font-weight: 400;
     font-size: 22px;
     line-height: 32px;
+}
+
+.h22 {
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 68px;
 }
 
 .learn {
