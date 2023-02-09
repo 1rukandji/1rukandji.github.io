@@ -457,6 +457,42 @@ body {
     margin-top: 1rem;
 }
 
+.flex4 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: auto;
+    margin-bottom: auto;
+    gap: 0.5rem;
+    text-align: center;
+    margin-left: 4rem;
+    margin-right: 4rem;
+    margin-top: 3rem;
+}
+
+.dropdown {
+    margin: auto;
+  }
+  
+  .dropdown-content {
+    display: none;
+    min-width: 110px;
+    font-size: 18px;
+    position: absolute;
+  }
+  
+  .dropdown-content a {
+    color: white;
+    padding: 6px 13px;
+    text-decoration: none;
+    display: block;
+  
+  }
+  
+  .dropdown-content a:hover {background-color: #00b5cc;}
+  .dropdown:hover .dropdown-content {display: block;}
+  .dropdown:hover .dropbtn {background-color: #3e8e41;}
+
     @media (max-width: 550px) {
         body {
             width: 450px;
@@ -466,6 +502,18 @@ body {
             width: 40%;
             margin-top: 3rem;
         }
+
+        .dropdown {
+            font-size: 13px;         
+          }
+          
+          .dropdown-content {
+            display: none;
+            min-width: 80px;
+            font-size: 13px;
+          }
+
+          
         
         .blackbar {
             padding: 1rem 2%;
@@ -478,6 +526,10 @@ body {
             margin-top: auto;
             margin-bottom: auto;
             gap: 0.5rem;
+        }
+
+        .mflex {
+            margin-left: -3.5rem;
         }
 
         .firstpar {
@@ -497,6 +549,7 @@ body {
             border: 0px;
         }
         
+        
         .grid2 {
             gap: 0.5rem;
         }
@@ -511,6 +564,17 @@ body {
             text-align: center;
             margin-left: 3rem;
             margin-right: 2rem;
+            margin-top: 3rem;
+        }
+
+        .flex4 {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            margin-top: auto;
+            margin-bottom: auto;
+            gap: 0.5rem;
+            text-align: center;
             margin-top: 3rem;
         }
 

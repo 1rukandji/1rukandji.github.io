@@ -219,7 +219,7 @@
     text-decoration: none;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 550px) {
     
     .h2 {
         font-size: 30px;
@@ -250,6 +250,13 @@
         font-weight: 700;
         font-size: 11px;
         line-height: 26px;
+        color: white;
+    }
+
+    .connectwru {
+        font-weight: 500;
+        font-size: 11px;
+        line-height: 21px;
         color: white;
     }
 
