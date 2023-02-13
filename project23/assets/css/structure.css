@@ -40,8 +40,9 @@ body {
 
 .greybar {
     background: #171818;
-    padding: 2rem 20%;
+    padding: 4% 20%;
     color: #ffffff;
+    
 }
 
 .greypanel {
@@ -154,7 +155,7 @@ body {
 }
 
 .w50 {
-    width: 41%;
+    width: 46%;
     text-align: justify;
 }
 
@@ -327,6 +328,7 @@ body {
 .stair1 {
     display: grid;
     grid-template-columns: 50% 50%;
+    margin-top: 2rem;
 }
 
 .part1 {
@@ -349,8 +351,8 @@ body {
 
 .waterfall {
     width: 70%;
-    margin-left: 10rem;
-    margin-top: -10rem;
+    margin-left: 5rem;
+    margin-top: -8rem;
 }
 
 .market {
@@ -372,10 +374,12 @@ body {
 
 .h15 {
     width: 55%;
+    
 }
 
 .h16 {
     width: 50%;
+    margin-top: 2rem;
 }
 
 .learn {
@@ -432,7 +436,7 @@ body {
 }
 
 .h21 {
-    margin-top: 5rem;
+    margin-top: 10rem;
 }
 
 .h20 {
