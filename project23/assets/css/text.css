@@ -114,14 +114,14 @@
 
 .stitle {
     font-weight: 200;
-    font-size: 38px;
+    font-size: 48px;
     line-height: 48px;
 }
 
 .h15 {
     font-weight: 300;
     font-size: 48px;
-    line-height: 56px;
+    line-height: 50px;
 }
 
 .h16 {
@@ -132,8 +132,8 @@
 
 .h22 {
     font-weight: 500;
-    font-size: 48px;
-    line-height: 68px;
+    font-size: 28px;
+    line-height: 48px;
 }
 
 .learn {
@@ -188,14 +188,9 @@
 .h21 {
     font-weight: 300;
     font-size: 58px;
-    line-height: 32px;
+    line-height: 74px;
 }
 
-.h22 {
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 26px;
-}
 
 .linkstitle {
     font-weight: 400;

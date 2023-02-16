@@ -89,7 +89,7 @@ body {
 .connectw {
     background: #2E3736;
     border-radius: 29.5px;
-    width: 164px;
+    width: 14rem;
     height: 50px;
     border: 0px;
 }
@@ -351,8 +351,8 @@ body {
 
 .waterfall {
     width: 70%;
-    margin-left: 5rem;
-    margin-top: -8rem;
+    margin-left: -2rem;
+    margin-top: -2rem;
 }
 
 .market {
@@ -379,7 +379,7 @@ body {
 
 .h16 {
     width: 50%;
-    margin-top: 2rem;
+    margin-top: 1rem;
 }
 
 .learn {
