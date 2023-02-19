@@ -498,9 +498,7 @@ body {
   .dropdown:hover .dropbtn {background-color: #3e8e41;}
 
     @media (max-width: 550px) {
-        body {
-            width: 450px;
-        }
+        
 
         .headerimg {
             width: 40%;
@@ -511,16 +509,10 @@ body {
             font-size: 13px;         
           }
           
-          .dropdown-content {
+        .dropdown-content {
             display: none;
             min-width: 80px;
             font-size: 13px;
-          }
-
-          
-        
-        .blackbar {
-            padding: 1rem 2%;
         }
         
         .flex {
@@ -529,11 +521,17 @@ body {
             justify-content: space-between;
             margin-top: auto;
             margin-bottom: auto;
-            gap: 0.5rem;
+            gap: 3px;
         }
 
         .mflex {
-            margin-left: -3.5rem;
+            margin-left: 0px;
+            gap: 7px;
+        }
+
+        .blogo {
+            margin: auto;
+            width: 60%;
         }
 
         .firstpar {
@@ -553,7 +551,6 @@ body {
             border: 0px;
         }
         
-        
         .grid2 {
             gap: 0.5rem;
         }
@@ -569,6 +566,13 @@ body {
             margin-left: 3rem;
             margin-right: 2rem;
             margin-top: 3rem;
+        }
+
+        .greenbar {
+            background: #2E3736;
+            padding: 0px 10%;
+            padding-top: 4rem;
+            color: #FFFFFF;
         }
 
         .flex4 {
@@ -590,7 +594,7 @@ body {
         }
 
         .mainlogo {
-            width: 4rem;
+            width: 3rem;
         }
 
         .nomarg {
@@ -598,14 +602,23 @@ body {
         }
 
         .w13 {
-            width: 7rem;
+            width: 10rem;
             margin-top: auto;
             margin-bottom: auto;
             margin-left: 1rem;
         }
 
+        .blackbar {
+            padding: 1rem;
+        }
+
         .margtop {
             margin-top: 0px;
+        }
+
+        .stairs {
+            margin-top: 8rem;
+            margin: 0px;
         }
         
         .w50 {
@@ -620,7 +633,7 @@ body {
         }
 
         .delegate {
-            width: 24%;
+            width: 33%;
             height: 59px;
             background: #2E3736;
             border-radius: 29.5px;
@@ -638,22 +651,28 @@ body {
         }
 
         .w14 {
-            width: 30%;
+            width: 40%;
             margin-top: auto;
             margin-bottom: auto;
         }
 
         .h9 {
-            width: 75%;
+            width: 90%;
             margin-left: auto;
             margin-right: auto;
             text-align: justify;
         }
+
+        .h11 {
+            text-align: justify;
+            width: 100%;
+            margin-top: 8rem;
+        }
         
         .h10 {
             margin-top: 2rem;
-            width: 65%;
-            margin-left: 12.5%;
+            width: 90%;
+            margin-left: auto;
             margin-right: auto;
             text-align: left;
         }
@@ -662,9 +681,9 @@ body {
             border: 1px solid #FFFFFF;
             background: none;
             border-radius: 29.5px;
-            width: 40%;
+            width: 8rem;
             height: 3rem;
-            margin-right: 80%;
+            margin-right: auto;
             margin-top: 1rem;
         }
 
@@ -705,6 +724,9 @@ body {
             margin-top: 1rem;
         }
 
+        .h21 {
+            margin-top: 7rem;
+        }
         
         .part1 {
             margin: auto;
@@ -714,12 +736,12 @@ body {
 
         .stairicon1 {
             margin: auto;
-            width: 60%;
+            width: 70%;
         }
 
         .stairicon {
             margin: auto;
-            width: 70%;
+            width: 90%;
         }
 
         .getin {
@@ -736,10 +758,14 @@ body {
             width: 20%;
         }
 
+        .h1 {
+            margin: auto;
+        }
+
         .waterfall {
             width: 75%;
-            margin-left: 10rem;
-            margin-top: -7rem;
+            margin-left: 5rem;
+            margin-top: -4rem;
         }
 
         .h15 {
@@ -792,7 +818,7 @@ body {
 
         .blackbar2 {
             background: #060606;
-            padding: 0px 6%;
+            padding: 2rem;
             padding-top: 4rem;
             padding-bottom: 0px;
             color: #FFFFFF;
