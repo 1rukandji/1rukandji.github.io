@@ -9,7 +9,7 @@ body {
 
 .blockwithbackground {
     background: url(https://media.discordapp.net/attachments/998700626798190683/1082535320953831505/background.png?width=994&height=683);
-    background-size: 80%;
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     padding: 0px 12%;
