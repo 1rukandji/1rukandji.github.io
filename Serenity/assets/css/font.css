@@ -1,0 +1,204 @@
+ * {
+    font-family: 'Lexend';
+    font-style: normal;
+ }
+
+.h1 {
+   font-weight: 400;
+   font-size: 20px;
+   line-height: 25px;
+   color: #0F2223;
+}
+
+.h2 {
+   font-weight: 400;
+   font-size: 48px;
+   line-height: 60px;
+   color: #4A5752;
+}
+
+.h3 {
+   font-weight: 300;
+   font-size: 23px;
+   line-height: 29px;
+   color: #4A5752;
+}
+
+.h4 {
+   font-weight: 300;
+   font-size: 23px;
+   line-height: 29px;
+   color: #0F2223;
+}
+
+.h5 {
+   font-weight: 400;
+   font-size: 48px;
+   line-height: 60px;
+   color: #D6D6D4;
+}
+
+.delegate {
+   font-weight: 300;
+   font-size: 20px;
+   line-height: 25px;
+   color: #0F2223;
+}
+
+.h6 {
+   font-weight: 400;
+   font-size: 60px;
+   line-height: 75px;
+   color: #DADAD8;
+}
+
+.h7 {
+   font-weight: 400;
+   font-size: 38px;
+   line-height: 48px;
+   color: #DADAD8;
+}
+
+.h8 {
+   font-weight: 300;
+   font-size: 20px;
+   line-height: 25px;
+   color: #D6D6D4;
+}
+
+.overcircle {
+   font-weight: 400;
+   font-size: 23px;
+   line-height: 29px;
+   color: #FFFFFF;
+}
+
+.h9 {
+   font-weight: 400;
+   font-size: 48px;
+   line-height: 60px;
+   color: #FFFFFF;
+}
+
+.h10 {
+   font-weight: 400;
+   font-size: 60px;
+   line-height: 75px;
+   color: #F5F5F5;
+   width: 60%;
+}
+
+.h11 {
+   font-weight: 400;
+   font-size: 38px;
+   line-height: 48px;
+   color: #F5F5F5;
+}
+
+.h12 {
+   font-weight: 300;
+   font-size: 28px;
+   line-height: 35px;
+   color: #F5F5F5;
+}
+
+.h13 {
+   font-weight: 400;
+   font-size: 60px;
+   line-height: 75px;
+   color: #F5F5F5;
+}
+
+.h14 {
+   font-weight: 300;
+   font-size: 28px;
+   line-height: 35px;
+   color: #F5F5F5;
+}
+
+.h15 {
+   font-weight: 400;
+   font-size: 32px;
+   line-height: 40px;
+   text-align: center;
+   color: #0F2223;
+}
+
+.h16 {
+   font-weight: 200;
+   font-size: 32px;
+   line-height: 40px;
+   text-align: center;
+   color: #0F2223;
+}
+
+.request {
+   font-weight: 400;
+   font-size: 32px;
+   line-height: 40px;
+   text-align: center;
+   color: #FFFFFF;
+}
+
+.h17 {
+   font-weight: 400;
+   font-size: 60px;
+   line-height: 75px;
+   color: #F5F5F5;
+}
+
+.ntitle {
+   font-weight: 400;
+   font-size: 32px;
+   line-height: 40px;
+   color: #000000;
+}
+
+.nsubtitle {
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 20px;
+   color: #027B82;
+}
+
+.h18 {
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 20px;
+   color: #0F2223;
+}
+
+.delegate1 {
+   font-weight: 300;
+   font-size: 15px;
+   line-height: 19px;
+   color: #0F2223;
+}
+
+.h19 {
+   font-weight: 400;
+   font-size: 66px;
+   line-height: 82px;
+   color: #FFFFFF;
+}
+
+.h20 {
+   font-weight: 400;
+   font-size: 32px;
+   line-height: 40px;
+   color: #FFFFFF;
+}
+
+.send {
+   font-weight: 400;
+   font-size: 32px;
+   line-height: 40px;
+   color: #0F2223;
+}
+
+.h21 {
+   font-weight: 400;
+   font-size: 20px;
+   line-height: 25px;
+   color: #FFFFFF;
+}
