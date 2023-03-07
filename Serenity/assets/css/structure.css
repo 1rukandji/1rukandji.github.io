@@ -199,6 +199,7 @@ body {
     font-size: 28px;
     line-height: 36px;
     width: 100%;
+    
 }
 
 .h20 {
@@ -214,7 +215,8 @@ body {
     background: #FFFFFF;
     border-radius: 38px;
     margin-right: 2rem;
-    width: 40%;
+    width: 60%;
+    height: 3rem;
     border: none;
     margin-left: 50%;
 }
