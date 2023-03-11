@@ -1,0 +1,126 @@
+@media (max-width: 550px) {
+    .blockwithbackground {
+        padding: 0px 2%;
+        padding-bottom: 2rem;
+    }
+    
+    .head {
+        gap: 0.5rem;
+    }
+
+    .blockwithoutbackground {
+        padding: 4% 2%;
+    }
+
+    .partwithcircles {
+        display: block;
+    }
+
+    .circles {
+        display: none;
+    }
+
+    .send {
+        margin-left: 10%;
+        margin: auto;
+        width: 75%;
+    }
+
+    .title {
+        width: 60%;
+    }
+
+    .partwithbutton {
+        margin-bottom: 6rem;
+    }
+
+    .title {
+        margin-bottom: 5rem;
+    }
+
+    .delegate {
+        width: 35%;
+    }
+
+    .delegate1 {
+        width: 90%;
+    }
+
+    .h7 {
+        margin-top: 1rem;
+    }
+
+    .defi {
+        width: 100%;
+    }
+
+    .h8:first-child {
+        margin-top: -50px;
+    }
+
+    .grid50 {
+        display: block;
+    }
+
+    .h10 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .rse {
+        margin-top: 2rem;
+    }
+
+    .h11 {
+        margin-top: 1.5rem;
+    }
+
+    .www {
+        margin: 0px;
+        width: 100%;
+    }
+
+    .h14 {
+        margin-bottom: 2rem;
+    }
+
+    .request {
+        width: 50%;
+        margin-left: 25%;
+    }
+
+    .bluepanel {
+        margin-top: 5rem;
+    }
+
+    .gridnetworks {
+        gap: 2%;
+        margin: 0px;
+        grid-template-columns: 49% 49%;
+    }
+
+    .whitepanel {
+        padding: 1rem;
+    }
+
+    .logo1 {
+        width: 60%;
+        margin: auto;
+        margin-bottom: 5rem;
+    }
+
+    .logo2 {
+        width: 85%;
+    }
+
+    .lastpart {
+        margin-left: 0px;
+    }
+
+    .links {
+        gap: 3%;
+        grid-template-columns: 27% 12% 14% 16% 14%;
+        margin-right: 0px;
+    }
+
+}

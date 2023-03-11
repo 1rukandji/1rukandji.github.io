@@ -1,0 +1,67 @@
+@media (max-width: 550px) {
+    .h1 {
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    .h2 {
+        font-size: 32px;
+        line-height: 48px;
+    }
+
+    .h4 {
+        color: #D6D6D4;
+    }
+
+    .h6 {
+        font-size: 45px;
+        line-height: 56px;
+    }
+
+    .h7 {
+        font-size: 28px;
+    }
+
+    .h8 {
+        font-size: 18px;
+    }
+
+    .h12 {
+        font-size: 18px;
+    }
+
+    .h13 {
+        font-size: 36px;
+    }
+
+    .h14 {
+        font-size: 21px;
+        line-height: normal;
+    }
+
+    .h15 {
+        font-size: 22px;
+    }
+
+    .h16 {
+        font-size: 18px;
+        width: 70%;
+        margin: auto;
+    }
+
+    .request {
+        font-size: 21px;
+    }
+
+    .h18 {
+        font-size: 12px;
+    }
+
+    .h21 {
+        font-size: 12px;
+    }
+
+    .h19 {
+        font-size: 42px;
+    }
+}

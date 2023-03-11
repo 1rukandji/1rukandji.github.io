@@ -60,15 +60,35 @@ body {
     margin-top: 4.5rem;
 }
 
-.overcircle {
-    margin-bottom: 4rem;
+.wrap_circles {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    width: 637px;
+}
+
+.wrap_circles div {
+    margin: auto;
+}
+
+.flex_over p {
+    margin: auto;
 }
 
 .circles {
-    display: grid;
-    grid-template-columns: 30% 30% 30%;
-    text-align: center;
-    gap: 3%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 637px;
+    height: 235px;
+}
+
+.flex_over {
+    display: flex;
+    width: 637px;
+    padding-right: 21px;
+    padding-left: 3px;
+    margin-bottom: 26px;
 }
 
 .defi {
@@ -239,7 +259,26 @@ body {
     margin-top: 4rem;
     margin-right: 10rem;
 }
-
+.circle1, .circle2, .circle3 {
+    display: flex;
+    border: 1px solid #D9D9D7;
+    border-radius: 100%;
+}
+.circle1 {
+    width: 130px;
+    height: 130px;
+}
+.circle2 {
+    width: 152px;
+    height: 152px;
+}
+.circle3 {
+    width: 180px;
+    height: 180px;
+}
+.h9 {
+    margin: auto;
+}
 a {
     text-decoration: none;
 }
