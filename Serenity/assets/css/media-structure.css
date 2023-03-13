@@ -7,7 +7,6 @@
     .head {
         gap: 10px;
         width: auto;
-        
         display: grid;
         grid-template-columns: 20% 20% 20% 20% 20%;
     }
@@ -56,6 +55,11 @@
 
     .h7 {
         margin-top: 1rem;
+    }
+
+    .h15 {
+        width: 80%;
+        margin: auto;
     }
 
     .defi {
