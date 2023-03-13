@@ -5,8 +5,16 @@
     }
     
     .head {
-        gap: 0.5rem;
+        gap: 10px;
+        width: auto;
+        
+        display: grid;
+        grid-template-columns: 20% 20% 20% 20% 20%;
     }
+
+    .dropdown {
+        margin-top: 1.9rem;
+      }
 
     .blockwithoutbackground {
         padding: 4% 2%;
@@ -85,8 +93,8 @@
     }
 
     .request {
-        width: 50%;
-        margin-left: 25%;
+        width: 60%;
+        margin-left: 20%;
     }
 
     .bluepanel {
@@ -96,15 +104,17 @@
     .gridnetworks {
         gap: 2%;
         margin: 0px;
-        grid-template-columns: 49% 49%;
+        display: block;
     }
 
     .whitepanel {
         padding: 1rem;
+        height: 200px;
+        margin-top: 1rem;
     }
 
     .logo1 {
-        width: 60%;
+        width: 50%;
         margin: auto;
         margin-bottom: 5rem;
     }
