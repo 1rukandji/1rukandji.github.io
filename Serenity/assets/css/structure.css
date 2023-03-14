@@ -16,6 +16,34 @@ body {
     padding-bottom: 4rem;
 }
 
+.blockwithbackground2 {
+    padding: 10% 16%;
+    background-image: url(https://media.discordapp.net/attachments/1039143688997183509/1085316624543924375/pine-watt-2Hzmz15wGik-unsplash_1.png?width=1226&height=683);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.h23:first-child {
+    margin-bottom: 2rem;
+}
+
+.arrow:last-child {
+    margin-bottom: 1rem;
+}
+
+.h22 {
+    width: 60%;
+}
+
+.tcenter {
+    text-align: center;
+}
+
+.arrow {
+    width: 10%;
+    margin-left: 45%;
+}
+
 .head {
     display: grid;
     grid-template-columns: 20% 20% 20% 20% 20%;
@@ -105,6 +133,24 @@ body {
     gap: 4%;
     margin-top: 10rem;
 }
+
+.grid51 {
+    display: grid;
+    grid-template-columns: 48% 48%;
+    gap: 4%;
+}
+
+.clicktobuy {
+    background: #D6D6D4;
+    border-radius: 15px;
+    width: 350px;
+    height: 50px;
+    border: none;
+}
+
+.center {
+    margin: auto;
+} 
 
 .h12 {
     margin-top: 1rem;
@@ -222,7 +268,6 @@ body {
     font-size: 28px;
     line-height: 36px;
     width: 100%;
-    
 }
 
 .h20 {

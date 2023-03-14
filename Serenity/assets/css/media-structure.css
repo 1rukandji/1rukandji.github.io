@@ -62,6 +62,19 @@
         margin: auto;
     }
 
+    .blockwithbackground2 {
+        padding: 8% 2%;
+    }
+
+    .clicktobuy {
+        width: 9rem;
+        height: 2rem;
+    }
+
+    .h22 {
+        width: 90%;
+    }
+
     .defi {
         width: 100%;
     }

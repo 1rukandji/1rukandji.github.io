@@ -43,6 +43,21 @@
         font-size: 22px;
         line-height: normal;
     }
+    
+    .h22 {
+        font-size: 30px;
+        line-height: 42px;
+    }
+
+    .h23 {
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    .clicktobuy {
+        font-size: 18px;
+        line-height: 26px;
+    }
 
     .h16 {
         font-size: 18px;
