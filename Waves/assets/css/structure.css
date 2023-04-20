@@ -438,9 +438,7 @@
     }
 
     .grid {
-        display: grid;
-        grid-template-columns: 40% 56%;
-        gap: 4%;
+        display: block;
         margin-top: 2rem;
     }
 
@@ -502,5 +500,19 @@
     .h16 {
         width: 90%;
     }
+
+
+    .margin-bottom {
+        margin-bottom: 1rem;
+    }
+
+    .connect {
+        background: #01017A;
+        border-radius: 38px;
+        width: 15rem;
+        border: none;
+        height: 3rem;
+    }
+    
 
   }

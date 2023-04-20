@@ -103,8 +103,8 @@ body {
 
 .connect {
     font-weight: 400;
-    font-size: 32px;
-    line-height: 40px;
+    font-size: 24px;
+    line-height: 32px;
     text-align: center;
     color: #FFFFFF;
 }
@@ -365,14 +365,14 @@ body {
 
     .h13 {
         font-weight: 400;
-        font-size: 27px;
-        line-height: 32px;
+        font-size: 21px;
+        line-height: 24px;
         color: #000000;
     }
 
     .h14 {
-        font-size: 18px;
-        line-height: 24px;
+        font-size: 14px;
+        line-height: 18px;
     }
 
     .h15 {
