@@ -1,0 +1,396 @@
+body {
+    font-family: 'Lexend';
+    font-style: normal;
+}
+
+.head-text {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    color: #01017A;
+}
+
+.launch {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    color: #01017A;
+}
+
+.big1 {
+    font-weight: 700;
+    font-size: 75px;
+    line-height: 94px;
+    color: #01017A;
+}
+
+.big2 {
+    font-weight: 700;
+    font-size: 128px;
+    line-height: 120px;
+    color: #01017A;
+}
+
+.big3 {
+    font-weight: 700;
+    font-size: 256px;
+    line-height: 210px;
+    color: #01017A;
+    margin-left: 1rem;
+}
+
+.h1 {
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 48px;
+    color: #01017A;
+}
+
+.h2 {
+    font-weight: 300;
+    font-size: 28px;
+    line-height: 35px;
+    color: #01017A;
+}
+
+.h3 {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    text-transform: uppercase;
+    color: #01017A;
+}
+
+.h4 {
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 60px;
+    color: #01017A;
+}
+
+.par {
+    font-family: 'Tajawal';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 34px;
+    color: #01017A;
+}
+
+.blocktext {
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 45px;
+    color: #01017A;
+    text-align: center;
+}
+
+.h5 {
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 75px;
+    color: #01017A;
+}
+
+.h6 {
+    font-family: 'Tajawal';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 34px;
+    color: #01017A;
+}
+
+.connect {
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 40px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.h7 {
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 75px;
+    color: #01017A;
+}
+
+.h8 {
+    font-weight: 400;
+    font-size: 38px;
+    line-height: 48px;
+    color: #01017A;
+}
+
+.h9 {
+    font-family: 'Tajawal';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 34px;
+    color: #01017A;
+}
+
+.h10 {
+    font-size: 32px;
+    line-height: 40px;
+    text-align: center;
+    color: #01017A;
+}
+
+.h11 {
+    font-weight: 200;
+    font-size: 28px;
+    line-height: 35px;
+    text-align: center;
+    color: #01017A;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    width: 85%;
+    margin: auto;
+}
+
+.request {
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 40px;
+    text-align: center;
+    color: #01017A;
+}
+
+.h12 {
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 75px;
+    color: #01017A;
+}
+
+.h13 {
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 40px;
+    color: #000000;
+}
+
+.delegate {
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+
+.h14 {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #027B82;
+}
+
+.h15 {
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 75px;
+    color: #01017A;
+}
+
+.h16 {
+    font-weight: 400;
+    font-size: 55px;
+    line-height: 69px;
+    color: #01017A;
+}
+
+.tryitnow {
+    font-weight: 300;
+    font-size: 38px;
+    line-height: 48px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.h17 {
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 40px;
+    color: #01017A;
+}
+
+.send {
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 40px;
+    text-align: center;
+    color: #01017A;
+}
+
+.h18 {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    color: #01017A;
+}
+
+.link {
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    color: #01017A;
+}
+
+@media (max-width: 550px) {
+
+    .big1 {   
+        font-size: 18px;
+        line-height: 25px; 
+    }
+    
+    .big2 {     
+        font-size: 35px;
+        line-height: 35px;    
+    }
+    
+    .big3 {  
+        font-size: 75px;
+        line-height: 60px;
+        margin-left: 0px
+    }
+    
+    .link {
+        text-decoration: none;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 16px;
+        color: #01017A;
+    }
+
+    .launch {
+        font-size: 12px;
+        line-height: 16px;    
+    }
+
+    .h1 {
+        font-size: 28px;
+        line-height: 32px;
+    }
+    
+    .h2 {
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    .h3 {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 20px;
+        text-transform: uppercase;
+    }
+
+    .h4 {
+        font-size: 36px;
+        line-height: 40px;
+    }
+
+    .par {
+        font-family: 'Tajawal';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 28px;
+        color: #01017A;
+    }
+    
+    .blocktext {
+        font-weight: 400;
+        font-size: 21px;
+        line-height: 26px;
+        color: #01017A;
+        text-align: center;
+    }
+
+    .h5 {
+        font-weight: 400;
+        font-size: 48px;
+        line-height: 56px;
+        color: #01017A;
+    }
+
+    .h7 {
+        font-size: 48px;
+        line-height: 56px;
+    }
+
+    .h8 {
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 36px;
+        color: #01017A;
+    }
+
+    .h9 {
+        font-size: 24px;
+        line-height: 29px;
+    }
+
+    .h10 {
+        font-size: 32px;
+        line-height: 36px;
+        text-align: center;
+        color: #01017A;
+    }
+
+    .h11 {
+        font-size: 24px;
+        line-height: 29px;
+    }
+
+    .request {
+        font-size: 24px;
+        line-height: 29px;
+    }
+
+    .h12 {
+        font-size: 42px;
+        line-height: 56px;
+    }
+
+    .h13 {
+        font-weight: 400;
+        font-size: 27px;
+        line-height: 32px;
+        color: #000000;
+    }
+
+    .h14 {
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    .h15 {
+        font-size: 42px;
+        line-height: 48px;
+    }
+
+    .tryitnow {
+        font-size: 32px;
+        line-height: 42px;
+    }
+
+    .h16 {
+        font-size: 32px;
+        line-height: 42px;
+    }
+
+    .h17 {
+        font-size: 26px;
+        line-height: 32px;
+    }
+
+    .h18 {
+        font-size: 12px;
+        line-height: 16px;
+    }
+}

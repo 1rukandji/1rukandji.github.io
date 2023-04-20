@@ -1,0 +1,506 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+    background: white;
+    
+}
+
+.head {
+    display: flex;
+    justify-content: end;
+    padding: 1% 12%;
+    gap: 1rem;
+}
+
+.launch {
+    width: 15rem;
+    height: 45px;
+    border: 1px solid #01017A;
+    border-radius: 38px;
+}
+
+.head-text {
+    margin: auto 0px;
+}
+
+.main {
+    background-image: url(https://media.discordapp.net/attachments/300176676644716544/1095943242794663936/9162150021949_1.png?width=1289&height=683);
+    padding: 6% 10%;
+}
+
+.big-letters {
+    display: flex;
+    margin-left: 10%;
+}
+
+.underbig {
+    margin-left: 10%;
+    margin-top: 2rem;
+}
+
+.h2 {
+    margin-top: 1rem;
+}
+
+.circle {
+    border: 1px solid #01017A;
+    width: 98px;
+    height: 98px;
+    border-radius: 50%;
+    background-image: url(https://media.discordapp.net/attachments/300176676644716544/1095948145113964574/3e3e27122d8d7ca2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 2rem;
+}
+
+.undercircle {
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.discover {
+    width: 100%;
+    text-align: center;
+}
+
+.main2 {
+    padding: 1% 15%;
+}
+
+.h4 {
+    margin-top: 4rem;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 46% 46%;
+    gap: 8%;
+    margin-top: 2rem;
+}
+
+.imageblocks {
+    margin-top: 4rem;
+    margin-bottom: 3rem;
+}
+
+.block {
+    width: 17%;
+}
+
+.blockright {
+    margin-left: 60%;
+}
+
+.blocktext {
+    margin-top: 1rem;
+}
+
+.blockleft {
+    margin-left: 20%;
+}
+
+.margin-top {
+    margin-top: -4rem;
+}
+
+.centerimg {
+    text-align: center;
+}
+
+.blockwithbackground {
+    background-image: url(https://media.discordapp.net/attachments/300176676644716544/1095943242794663936/9162150021949_1.png?width=1289&height=683);
+    padding: 2% 14%;
+    background-size: cover;
+}
+
+.h6 {
+    width: 50%;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.part1 {
+    display: flex;
+    gap: 5rem;
+    justify-content: center;
+}
+
+.connect {
+    background: #01017A;
+    border-radius: 38px;
+    width: 23rem;
+    border: none;
+    height: 4rem;
+}
+
+.margin-top1 {
+    margin-top: 8rem;
+}
+
+.margin-top2 {
+    margin-top: 2rem;
+}
+
+.whitebar {
+    background: #FFFFFF;
+    border: 2px solid #01017A;
+    border-radius: 50px;
+    padding: 4% 5%;
+    margin-top: 6rem;
+    text-align: center;
+}
+
+.request {
+    border: 2px solid #01017A;
+    border-radius: 38px;
+    padding: 1.5% 4%;
+    margin-top: 1rem;
+    margin-left: auto;
+    background: #FFFFFF;
+}
+
+.whiteblock {
+    padding: 2% 4%;
+    background: #FFFFFF;
+    border-radius: 31px;
+    width: 14rem;
+    height: 15rem;
+    text-align: center;
+    margin-top: 4rem;
+}
+
+.networks {
+    margin-top: 8rem;
+}
+
+.delegate {
+    background: #01017A;
+    border-radius: 8px;
+    width: 137px;
+    height: 33px;
+    text-align: center;
+    border: none;
+}
+
+.stridemarg {
+    margin-top: 2.5rem;
+}
+
+.lastblock {
+    padding: 2% 14%;
+    padding-top: 6%;
+    background: #FFFFFF;
+}
+
+.stridelogo {
+    margin-top: 1rem;
+}
+
+.logo {
+    margin: 1rem 0px;
+}
+
+.tryitnow {
+    background: #01017A;
+    border-radius: 38px;
+    width: 26rem;
+    border: none;
+    height: 4rem;
+    margin: 4rem 0px;
+}
+
+.h16 {
+    width: 70%;
+}
+
+.input {
+    height: 1.5rem;
+    border: none;
+    width: 100%;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: #01017A;
+    margin-top: 2rem;
+    padding: 0.3rem;
+}
+
+.data {
+    margin-top: 4rem;
+}
+
+.nes {
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    gap: 3%;
+}
+
+.input:active {
+    text-decoration: none;
+}
+
+.margin-bottom {
+    margin-bottom: 5rem;
+}
+
+.data-width {
+    width: 50%;
+}
+
+.send {
+    background: #FFFFFF;
+    border-radius: 38px;
+    border: none;
+    width: 14rem;
+    height: 5rem;
+    margin-top: 11rem;
+    margin-left: 25rem;
+}
+
+.send:hover {
+    background: gainsboro;
+    transition: 0.5s;
+}
+
+.message-send {
+    display: grid;
+    grid-template-columns: 45% 45%;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    margin-top: 5rem;
+}
+
+.link {
+    margin-right: 3rem;
+}
+
+.dropbtn {
+    background: #01017A;
+    color: white;
+    padding: 16px;
+    font-family: 'Lexend';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    margin-right: 1rem;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 20px;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #f1f1f1}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .dropdown:hover .dropbtn {
+    background-color: #255db3;
+    transition: 0.5s;
+  }
+
+  @media (max-width: 550px) {
+
+    .head {
+        display: flex;
+        justify-content: end;
+        padding: 1% 1%;
+        gap: 0.5rem;
+    }
+
+    .main {
+        padding: 3% 1%;
+    }
+
+    .big-letters {
+        display: flex;
+        margin-left: center;
+    }
+
+    .link {
+        margin-right: 0.1rem;
+    }
+
+    .dropbtn {
+        padding: 5px;
+        font-size: 12px;
+        line-height: 16px;
+        border-radius: 20px;
+        margin-right: 0px;
+        margin-top: 0.3rem;
+      }
+
+      .launch {
+        width: 15rem;
+        height: 35px;
+        border: 1px solid #01017A;
+        border-radius: 38px;
+    }
+
+    .underbig {
+        margin-left: 1%;
+        margin-top: 2rem;
+    }
+
+    .circle {
+        border: 1px solid #01017A;
+        width: 48px;
+        height: 48px;
+        border-radius: 50%;
+        background-image: url(https://media.discordapp.net/attachments/300176676644716544/1095948145113964574/3e3e27122d8d7ca2.png);
+        background-size: 30%;
+        background-position: center;
+        background-repeat: no-repeat;
+        margin-top: 2rem;
+    }
+    
+    .main2 {
+        padding: 1% 1%;
+    }
+
+    .block {
+        width: 10%;
+    }
+    
+    .blockright {
+        margin-left: 60%;
+    }
+    
+    .blocktext {
+        margin-top: 1rem;
+    }
+    
+    .blockleft {
+        margin-left: 8%;
+    }
+    
+    .margin-top {
+        margin-top: -4rem;
+    }
+    
+    .centerimg {
+        text-align: center;
+    }
+
+    .image {
+        width: 180%;
+    }
+    
+    .send {
+        background: #FFFFFF;
+        border-radius: 38px;
+        border: none;
+        width: 12rem;
+        height: 5rem;
+        margin-top: 11rem;
+        margin-left: 1rem;
+    }
+    
+    .blockwithbackground {
+        padding: 2% 1%;
+        background-size: cover;
+    }
+    
+    .h6 {
+        width: 80%;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+
+    .grid {
+        display: grid;
+        grid-template-columns: 40% 56%;
+        gap: 4%;
+        margin-top: 2rem;
+    }
+
+    .whitebar {
+        margin: 2%;
+        margin-top: 4rem;
+    }
+
+    .part1 {
+        display: flex;
+        gap: 1rem;
+        justify-content: center;
+    }
+
+    .logoimage {
+        width: 50%;
+    }
+
+    .logoimage1 {
+        width: 70%;
+        margin-top: 1rem;
+    }
+
+    .whiteblock {
+        padding: 1% 2%;
+        background: #FFFFFF;
+        border-radius: 31px;
+        width: 8rem;
+        height: 15rem;
+        text-align: center;
+        margin-top: 4rem;
+    }
+
+    .tryitnow {
+        background: #01017A;
+        border-radius: 38px;
+        width: 18rem;
+        border: none;
+        height: 4rem;
+        margin: 2rem 0px;
+        margin-bottom: 4rem;
+    }
+    
+    .delegate {
+        width: 5rem;
+        height: 33px;
+    }
+    
+    .stridemarg {
+        margin-top: 1rem;
+    }
+
+    .lastblock {
+        padding: 2% 1%;
+        padding-top: 6%;
+        background: #FFFFFF;
+    }
+
+    .h16 {
+        width: 90%;
+    }
+
+  }
