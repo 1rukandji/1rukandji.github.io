@@ -248,12 +248,12 @@ body {
     }
     
     .big2 {     
-        font-size: 35px;
+        font-size: 32px;
         line-height: 35px;    
     }
     
     .big3 {  
-        font-size: 75px;
+        font-size: 70px;
         line-height: 60px;
         margin-left: 0px
     }
@@ -265,6 +265,11 @@ body {
         font-size: 12px;
         line-height: 16px;
         color: #01017A;
+    }
+
+    .delegate {
+        font-size: 12px;
+        line-height: 15px;
     }
 
     .launch {
@@ -319,19 +324,20 @@ body {
     }
 
     .h7 {
-        font-size: 48px;
-        line-height: 56px;
+        font-size: 32px;
+        line-height: 36px;
+        font-weight: 600;
     }
 
     .h8 {
         font-weight: 400;
-        font-size: 32px;
-        line-height: 36px;
+        font-size: 26px;
+        line-height: 32px;
         color: #01017A;
     }
 
     .h9 {
-        font-size: 24px;
+        font-size: 18px;
         line-height: 29px;
     }
 
@@ -375,8 +381,8 @@ body {
     }
 
     .tryitnow {
-        font-size: 32px;
-        line-height: 42px;
+        font-size: 24px;
+        line-height: 32px;
     }
 
     .h16 {
@@ -385,8 +391,8 @@ body {
     }
 
     .h17 {
-        font-size: 26px;
-        line-height: 32px;
+        font-size: 18px;
+        line-height: 24px;
     }
 
     .h18 {

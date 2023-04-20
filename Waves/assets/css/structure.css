@@ -344,7 +344,7 @@
 
     .big-letters {
         display: flex;
-        margin-left: center;
+        margin-left: 1rem;
     }
 
     .link {
@@ -361,7 +361,7 @@
       }
 
       .launch {
-        width: 15rem;
+        width: 12rem;
         height: 35px;
         border: 1px solid #01017A;
         border-radius: 38px;
