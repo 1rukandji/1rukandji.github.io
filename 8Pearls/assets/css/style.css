@@ -1,0 +1,772 @@
+* {
+    font-family: 'Inter';
+    font-style: normal;
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+    background: url(https://media.discordapp.net/attachments/300176676644716544/1110297159011676251/image.png?width=169&height=683);
+    padding-left: 12%;
+    padding-right: 12%;
+    background-size: cover;
+}
+
+.nav-bar {
+    box-sizing: border-box;
+    width: 100%;
+    height: 56px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+    padding-top: 1rem;
+}
+
+.logo {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+    margin-left: 4rem;
+}
+
+.nav-buttons {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.nav-buttons1 {
+    display: flex;
+}
+
+.nav-margin {
+    margin-left: 4rem;
+
+}
+
+.nav-links {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #2962EF;
+    text-decoration: none;
+    margin: auto;
+}
+
+.dropbtn {
+    background: none;
+    color: #2962EF;
+    padding: 8px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    margin-right: 1rem;
+    transition: 0.5s;
+  }
+
+  .delegate:hover {
+    background-color: aliceblue;
+    transition: 0.5s;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    transition: 0.5s;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 20px;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #f1f1f1; border-radius: 20px;}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+    transition: 0.5s;
+  }
+  
+  .dropdown:hover .dropbtn {
+    color: #f9f9f9;
+    transition: 0.5s;
+  }
+
+.nav-links1 {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #2962EF;
+    text-decoration: none;
+}
+
+.nav-connect {
+    background: #2962EF;
+    border-radius: 28px;
+    height: 100%;
+    width: 12rem;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+    border: none;
+}
+
+.start-part {
+    text-align: center;
+    padding-top: 10rem;
+    padding-bottom: 34%;
+    background-image: url(https://media.discordapp.net/attachments/300176676644716544/1111446096154198036/holo-bg.png?width=863&height=683);
+    background-repeat: no-repeat;
+    background-size: 85%;
+    background-position: 5rem 0rem;
+}
+
+.h1 {
+    font-weight: 700;
+    font-size: 90px;
+    line-height: 89px;
+    color: #2962EF;
+}
+
+.background1 {
+    background-image: url(https://media.discordapp.net/attachments/300176676644716544/1110659453033926706/7_Fluid_Holographic_Shapes_1.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.h1:nth-child(1) {
+    margin-left: 12rem;
+}
+
+
+.h2 {
+    font-weight: 400;
+    font-size: 32px;               
+    line-height: 39px;
+    color: #2962EF;
+    text-align: left;
+}
+
+.grid-name {
+    display: flex;
+    justify-content: center;
+}
+
+.h1:last-child {
+    line-height: 79px;
+}
+
+.h14 {
+    font-weight: 400;
+    font-size: 32px;               
+    line-height: 39px;
+    color: #2962EF;
+}
+
+
+.button-start {
+    background: #FFFFFF;
+    border-radius: 36px;
+    border: none;
+    width: 429px;
+    height: 86px;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 61px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #2962EF;
+    margin-left: 17%;
+    margin-top: 5rem;
+    transition: 0.5s;
+}
+
+.button-start:hover {
+    background-color: aliceblue;
+    transition: 0.5s;
+}
+
+.h3 {
+    font-weight: 700;
+    font-size: 62px;
+    line-height: 75px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #2962EF;
+    width: 40%;
+}
+
+.info-part {
+    padding-left: 4rem;
+    padding-right: 4rem;
+}
+
+.grid-info2 {
+    padding-left: 4rem;
+    padding-right: 4rem;
+    background-image: url(https://media.discordapp.net/attachments/300176676644716544/1110659449904967750/9_Fluid_Holographic_Shapes_1.png?width=683&height=683);
+    background-position: 16rem 7rem;
+    background-repeat: no-repeat;
+    padding-bottom: 30rem;
+}
+
+.h4 {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 27px;
+    letter-spacing: 0.05em;
+    color: #2962EF;
+    margin-top: 2rem;
+}
+
+.grid-info {
+    display: grid;
+    grid-template-columns: 40% 40%;
+    gap: 20%;
+}
+
+.h5 {
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 34px;
+    text-transform: uppercase;
+    color: #2962EF;
+    margin-top: 10rem;
+}
+
+.h13 {
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 34px;
+    text-transform: uppercase;
+    color: #2962EF;
+
+}
+
+.h3-width {
+    width: 55%;
+}
+.h3-width2 {
+    width: 45%;
+}
+
+.h4-width {
+    width: 35%;
+}
+
+.h6 {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 39px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #2962EF;
+    margin-top: 1rem;
+}
+
+.margin-top {
+    margin-top: 10rem;
+}
+
+.h7 {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+
+.h8 {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #2962EF;
+}
+
+.delegate {
+    background: #FFFFFF;
+    border-radius: 16.5px;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    text-transform: uppercase;
+    color: #2962EF;
+    border: none;
+    width: 10rem;
+    height: 3rem;
+    margin-top: 1rem;
+    transition: 0.5s;
+}
+
+.block {
+    background: rgba(155, 173, 254, 0.15);
+    border-radius: 37px;
+    text-align: center;
+    padding-bottom: 3rem;
+}
+
+.labels-grid {
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    gap: 2rem;
+    margin-top: 3rem;
+    padding-bottom: 9rem;
+    background-image: url(https://media.discordapp.net/attachments/300176676644716544/1111470572828897300/16_Fluid_Holographic_Shapes_1_1.png?width=683&height=683);
+    background-size: 45%;
+    background-repeat: no-repeat;
+    background-position: 100% 80%;
+}
+
+.image {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.evmos-marg {
+    margin-bottom: 2.7rem;
+    margin-top: 2.7rem;
+}
+
+.stride-marg {
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+
+.h9 {
+    font-weight: 700;
+    font-size: 62px;
+    line-height: 75px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #2962EF;
+    margin-top: 1rem;
+}
+
+.h10 {
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 34px;
+    letter-spacing: 0.05em;
+    text-transform: capitalize;
+    color: #2962EF;
+    margin-top: 2rem;
+    width: 80%;
+}
+
+.h11 {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 27px;
+    letter-spacing: 0.05em;
+    color: #2962EF;
+    margin-top: 2rem;
+    width: 80%;
+}
+
+.grid-info2 {
+    display: grid;
+    grid-template-columns: 40% 40%;
+    gap: 10%;
+}
+
+.h11-marg {
+    margin-top: 4.5rem;
+}
+
+.h12 {
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 34px;
+    text-transform: uppercase;
+    color: #2962EF;
+    margin-top: 1rem;
+}
+
+.final-part {
+    padding-left: 4rem;
+    padding-right: 4rem;
+    padding-bottom: 5rem;
+}
+
+.email-input {
+    background: #FFFFFF;
+    border-radius: 90.5px;
+    height: 181px;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 61px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #2962EF;
+    border: none;
+    box-sizing: border-box;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    outline: none;
+    transition: 1s;
+}
+
+.send {
+    background: #2962EF;
+    border-radius: 90.5px;
+    width: 179px;
+    height: 181px;
+    border: none;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 61px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.grid-email {
+    display: grid;
+    grid-template-columns: 80% 17%;
+    gap: 3%;
+    margin-top: 6rem;
+}
+
+
+button {
+    cursor: pointer;
+}
+
+@media (max-width: 550px) {
+    .nav-links {
+        font-size: 9px;
+        line-height: 12px;
+    }
+
+    .dropbtn {
+        font-size: 9px;
+        line-height: 12px;
+        padding-top: 13.5px;
+        margin-right: 0.5rem;
+    }
+
+    .container {
+        padding: 1rem;
+    }
+
+    .nav-connect {
+        background: #2962EF;
+        width: 5rem;
+        font-size: 12px;
+        line-height: 14px;
+    }
+
+    
+    .nav-buttons {
+        display: flex;
+        flex-direction: row;
+        gap: 0.5rem;
+        margin-left: 0.5rem;
+    }
+
+    .h1 {
+        font-weight: 700;
+        font-size: 52px;
+        line-height: 58px;
+        color: #2962EF;
+    }
+
+    .h1:nth-child(1) {
+        margin-left: 4rem;
+    }
+    
+    .h2 {
+        font-weight: 400;
+        font-size: 17px;               
+        line-height: 28px;
+        color: #2962EF;
+        text-align:left;
+    }
+
+    .h14 {
+        font-weight: 400;
+        font-size: 17px;               
+        line-height: 16px;
+        color: #2962EF;
+        text-align: left;
+    }
+
+    .h2-marg {
+        margin-top: 0.8rem;
+    }
+
+    .grid-name {
+        display: grid;
+        grid-template-columns: 50%50%;
+    }
+    
+    .button-start {
+        background: #FFFFFF;
+        border-radius: 36px;
+        border: none;
+        width: auto;
+        height: auto;
+        padding: 0.5rem 1rem;
+        font-weight: 600;
+        font-size: 42px;
+        line-height: 48px;
+        text-align: center;
+        text-transform: uppercase;
+        color: #2962EF;
+        margin-left: 1rem;
+        margin-top: 5rem;
+        transition: 0.5s;
+    }
+
+    .info-part {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .h3 {
+        font-weight: 700;
+        font-size: 52px;
+        line-height: 58px;
+        letter-spacing: 0.05em;
+        text-transform: uppercase;
+        color: #2962EF;
+        width: auto;
+    }
+
+    .grid-info {
+        display: block;
+    }
+
+    
+    .h4 {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 24px;
+        letter-spacing: 0.05em;
+        color: #2962EF;
+        margin-top: 2rem;
+    }
+    
+    .h5 {
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 28px;
+        text-transform: uppercase;
+        color: #2962EF;
+        margin-top: 10rem;
+    }
+
+    .h4-width {
+        width: 80%;
+    }
+
+    .h3-width2 {
+        width: 100%;
+    }
+
+    .image {
+        width: 60%;
+    }
+
+    .h6 {
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    .h7 {
+        font-size: 12px;
+        line-height: 14px;
+    }
+
+    .h8 {
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    .delegate {
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 16px;
+        width: 6rem;
+        height: 3rem;
+        margin-top: 1rem;
+        transition: 0.5s;
+    }
+
+    .labels-grid {
+        display: grid;
+        grid-template-columns: 48% 48%;
+        gap: 1rem;
+        margin-top: 3rem;
+        padding-bottom: 9rem;
+        background-image: url(https://media.discordapp.net/attachments/300176676644716544/1111470572828897300/16_Fluid_Holographic_Shapes_1_1.png?width=683&height=683);
+        background-size: 45%;
+        background-repeat: no-repeat;
+        background-position: 100% 80%;
+    }
+
+    .stride-marg {
+        margin-top: 4rem;
+        margin-bottom: 4rem;
+        width: 70%;
+    }
+
+    .osmosis-marg {
+        margin-bottom: 2.3rem;
+        width: 70%;
+    }
+
+    .agoric-marg {
+        margin-top: 3rem;
+        margin-bottom: 3.1rem;
+    }
+
+    .h9 {
+        font-weight: 700;
+        font-size: 42px;
+        line-height: 48px;
+        letter-spacing: 0.05em;
+        text-transform: uppercase;
+        color: #2962EF;
+        margin-top: 1rem;
+    }
+
+    .grid-info2 {
+        padding-left: 0px;
+        padding-right: 0px;
+        background-image: url(https://media.discordapp.net/attachments/300176676644716544/1110659449904967750/9_Fluid_Holographic_Shapes_1.png?width=683&height=683);
+        background-position: 16rem 7rem;
+        background-repeat: no-repeat;
+        padding-bottom: 20rem;
+        display: block;
+        gap: 10%;
+    }
+
+    .h11 {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 24px;
+        letter-spacing: 0.05em;
+        color: #2962EF;
+        margin-top: 1rem;
+        width: 80%;
+    }
+
+    .h10 {
+        font-weight: 700;
+        font-size: 28px;
+        line-height: 34px;
+        letter-spacing: 0.05em;
+        text-transform: capitalize;
+        color: #2962EF;
+        margin-top: 3rem;
+        width: 80%;
+    }   
+    
+    .final-part {
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-bottom: 5rem;
+    }
+
+    .h13 {
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 28px;
+        text-transform: uppercase;
+        color: #2962EF;  
+    }
+
+    .email-input {
+        background: #FFFFFF;
+        border-radius: 90.5px;
+        height: 4.5rem;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 28px;
+        letter-spacing: 0.05em;
+        text-transform: uppercase;
+        color: #2962EF;
+        border: none;
+        box-sizing: border-box;
+        padding-left: 1rem;
+        padding-right: 0px;
+        outline: none;
+        transition: 1s;
+    }
+
+    .send {
+        background: #2962EF;
+        border-radius: 90.5px;
+        width: 72px;
+        height: 72px;
+        border: none;
+        font-weight: 700;
+        font-size: 21px;
+        line-height: 28px;
+        letter-spacing: 0.05em;
+        text-transform: uppercase;
+        color: #FFFFFF;
+    }
+
+    .grid-email {
+        display: grid;
+        grid-template-columns: 70% 19%;
+        gap: 5%;
+        margin-top: 6rem;
+    }
+
+    .nav-links1 {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 18px;
+        color: #2962EF;
+        text-decoration: none;
+    }
+
+    .nav-margin {
+        margin-left: 0.5rem;
+    }
+
+    .nav-margin:nth-child(2) {
+        margin-left: 0.85rem;
+    }
+
+    .nav-margin:nth-child(1) {
+        margin-left: 0.8rem;
+    }
+
+    .nav-margin:nth-child(3) {
+        margin-left: 0.8rem;
+    }
+
+    .nav-buttons1 {
+        display: flex;
+    }
+
+    .dropdown-content a {
+        color: black;
+        padding: 9px 4px;
+        text-decoration: none;
+        display: block;
+        font-size: 9px;
+      }
+}
